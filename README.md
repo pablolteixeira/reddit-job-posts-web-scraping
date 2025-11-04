@@ -1,51 +1,30 @@
-# Reddit Job Posts Scraper
+# Project Structure
 
-This project scrapes job posts from various job-related subreddits using the Reddit API.
+This project consists of two main components:
+
+1. Reddit Scraper (`reddit_scraper/`)
+   - Scrapes job posts from various subreddits
+   - Saves data in CSV format
+   
+2. LLM Service (`llm_service/`)
+   - Analyzes job posts using GPT
+   - Provides REST API for job post analysis
+   - Extracts structured information from posts
 
 ## Setup
 
-1. Create a Reddit account and register a new application at https://www.reddit.com/prefs/apps
-2. Copy your client ID and client secret
-3. Create a virtual environment and install dependencies:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
-4. Update the `.env` file with your Reddit API credentials:
-```
-REDDIT_CLIENT_ID=your_client_id_here
-REDDIT_CLIENT_SECRET=your_client_secret_here
-REDDIT_USER_AGENT=your_app_name_v1.0
-```
+Each component has its own setup instructions in their respective directories:
+- [Reddit Scraper Setup](reddit_scraper/README.md)
+- [LLM Service Setup](llm_service/README.md)
 
-## Usage
+## Workflow
 
-Run the scraper:
-```bash
-python src/scraper.py
-```
+1. Use the Reddit scraper to collect job posts
+2. Process the collected data through the LLM service
+3. Get structured analysis of job requirements, skills, and other details
 
-The script will:
-1. Scrape job posts from specified subreddits (default: r/forhire, r/jobbit, r/remotejs, r/remotepython)
-2. Extract relevant information from each post
-3. Save the data to a CSV file in the `data` directory with a timestamp
+## Requirements
 
-## Data Structure
-
-The scraped data includes:
-- Title
-- Body
-- Author
-- Created date/time
-- Score
-- URL
-- Subreddit
-- Post ID
-
-## Configuration
-
-You can modify the following in `src/scraper.py`:
-- Target subreddits
-- Number of posts to scrape per subreddit
-- Output file format and location
+- Python 3.8+
+- Reddit API credentials
+- OpenAI API key
