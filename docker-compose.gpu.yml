@@ -8,11 +8,8 @@
 #   2. nvidia-container-toolkit installed
 #   3. Verify with: nvidia-smi
 
-version: '3.8'
-
 services:
   llm-consumer:
-    runtime: nvidia
     environment:
       NVIDIA_VISIBLE_DEVICES: all
       NVIDIA_DRIVER_CAPABILITIES: compute,utility
