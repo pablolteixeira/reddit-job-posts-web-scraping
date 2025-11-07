@@ -23,5 +23,8 @@ COPY src/ ./src/
 # Create data directory for output
 RUN mkdir -p data
 
+# Add src to Python path
+ENV PYTHONPATH=/app/src:$PYTHONPATH
+
 # Run the scraper
 CMD ["python", "src/scraper.py"]

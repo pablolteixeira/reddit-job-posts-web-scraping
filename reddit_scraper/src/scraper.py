@@ -3,7 +3,7 @@ import praw
 from dotenv import load_dotenv
 from datetime import datetime
 from db.models import RawJobPost, get_db_session, init_database
-from queue.publisher import RabbitMQPublisher
+from messaging.publisher import RabbitMQPublisher
 
 def load_reddit_client():
     """Initialize and return Reddit API client."""

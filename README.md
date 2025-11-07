@@ -1,30 +1,178 @@
-# Project Structure
+# Reddit Job Post Scraper & Analyzer
 
-This project consists of two main components:
+Automated pipeline for scraping job posts from Reddit and analyzing them with AI to extract structured data.
 
-1. Reddit Scraper (`reddit_scraper/`)
-   - Scrapes job posts from various subreddits
-   - Saves data in CSV format
-   
-2. LLM Service (`llm_service/`)
-   - Analyzes job posts using GPT
-   - Provides REST API for job post analysis
-   - Extracts structured information from posts
+## Features
 
-## Setup
+- 🤖 **Automated Scraping**: Scheduled scraper runs every 2 hours via cron
+- 💾 **PostgreSQL Storage**: Stores both raw and processed job post data
+- 🔄 **Async Processing**: RabbitMQ queue for decoupled LLM processing
+- 🧠 **AI Analysis**: Uses Llama 3.1 via Ollama (free, self-hosted) to extract:
+  - Cleaned title and description
+  - Job tags (type, level, technologies, location, etc.)
+- 🐳 **Fully Dockerized**: One command to run everything
+- ⚡ **GPU Support**: Optional GPU acceleration for 3-5x faster processing
 
-Each component has its own setup instructions in their respective directories:
-- [Reddit Scraper Setup](reddit_scraper/README.md)
-- [LLM Service Setup](llm_service/README.md)
+## Architecture
 
-## Workflow
+```
+Reddit Scraper (Cron)
+    ↓
+PostgreSQL Database
+    ↓
+RabbitMQ Queue
+    ↓
+LLM Consumer (Ollama + Llama 3.1)
+    ↓
+Updated Database with Cleaned Data
+```
 
-1. Use the Reddit scraper to collect job posts
-2. Process the collected data through the LLM service
-3. Get structured analysis of job requirements, skills, and other details
+## Quick Start
+
+1. **Prerequisites:**
+   - Docker & Docker Compose
+   - Reddit API credentials ([get them here](https://www.reddit.com/prefs/apps))
+
+2. **Configure:**
+   ```bash
+   # Reddit scraper config
+   cp reddit_scraper/.env.template reddit_scraper/.env
+   # Edit and add your Reddit API credentials
+
+   # LLM service config (defaults are fine)
+   cp llm_service/.env.template llm_service/.env
+   ```
+
+3. **Run:**
+   ```bash
+   docker compose build
+   docker compose up -d
+   ```
+
+4. **Monitor:**
+   ```bash
+   docker compose logs -f
+   ```
+
+That's it! The system will:
+- Scrape Reddit every 2 hours
+- Store raw data in PostgreSQL
+- Process with LLM (downloads model on first run, ~5 min)
+- Update database with cleaned data
+
+## Documentation
+
+- **[DOCKER_SETUP.md](DOCKER_SETUP.md)** - Complete Docker setup guide, commands, troubleshooting
+- **[GPU_SETUP.md](GPU_SETUP.md)** - Optional GPU acceleration setup for faster processing
+
+## Project Structure
+
+```
+reddit-job-posts-web-scraping/
+├── reddit_scraper/          # Scraper service
+│   ├── src/
+│   │   ├── scraper.py      # Main scraper logic
+│   │   ├── db/             # Database models
+│   │   └── messaging/      # RabbitMQ publisher
+│   ├── Dockerfile
+│   └── .env.template
+├── llm_service/            # LLM analyzer service
+│   ├── src/
+│   │   ├── consumer.py     # RabbitMQ consumer
+│   │   ├── analyzer.py     # Ollama LLM integration
+│   │   └── database.py     # PostgreSQL client
+│   ├── Dockerfile
+│   └── .env.template
+├── cron/                   # Cron schedule config
+├── docker-compose.yml      # Main orchestration
+└── docker-compose.gpu.yml  # GPU acceleration (optional)
+```
+
+## Services
+
+| Service | Port | Description |
+|---------|------|-------------|
+| PostgreSQL | 5432 | Stores job post data |
+| RabbitMQ | 5672 | Message queue |
+| RabbitMQ UI | 15672 | Management interface |
+| Scraper | - | Cron job (every 2h) |
+| LLM Consumer | - | Background processor |
+
+## Database Schema
+
+**Table:** `raw_job_posts`
+
+| Column | Type | Description |
+|--------|------|-------------|
+| `id` | INTEGER | Primary key |
+| `reddit_id` | VARCHAR | Unique Reddit post ID |
+| `title` | TEXT | Original title |
+| `body` | TEXT | Original post body |
+| `author` | VARCHAR | Reddit username |
+| `created_utc` | TIMESTAMP | Post creation time |
+| `score` | INTEGER | Reddit score |
+| `url` | TEXT | Post URL |
+| `subreddit` | VARCHAR | Source subreddit |
+| `scraped_at` | TIMESTAMP | When scraped |
+| `cleaned_title` | TEXT | AI-processed title |
+| `cleaned_text` | TEXT | AI-processed summary |
+| `tags` | JSON | Extracted tags/categories |
+| `processed_at` | TIMESTAMP | When processed by LLM |
+
+## Usage Examples
+
+**View unprocessed jobs:**
+```bash
+docker compose exec postgres psql -U reddit_user -d reddit_jobs -c \
+  "SELECT id, title FROM raw_job_posts WHERE processed_at IS NULL;"
+```
+
+**View processed jobs with tags:**
+```bash
+docker compose exec postgres psql -U reddit_user -d reddit_jobs -c \
+  "SELECT id, cleaned_title, tags FROM raw_job_posts WHERE processed_at IS NOT NULL LIMIT 5;"
+```
+
+**Check processing stats:**
+```bash
+docker compose exec postgres psql -U reddit_user -d reddit_jobs -c \
+  "SELECT
+    COUNT(*) FILTER (WHERE processed_at IS NULL) as unprocessed,
+    COUNT(*) FILTER (WHERE processed_at IS NOT NULL) as processed
+   FROM raw_job_posts;"
+```
+
+**RabbitMQ Management UI:**
+- Open http://localhost:15672
+- Login: `guest` / `guest`
+- View queue status and consumer activity
+
+## Performance
+
+| Mode | Speed per Post | Recommended For |
+|------|---------------|-----------------|
+| CPU | 2-3 seconds | ~100-200 posts/day |
+| GPU | 0.5-1 second | 500+ posts/day |
+
+## Technologies
+
+- **Python 3.11**
+- **PostgreSQL 16** - Database
+- **RabbitMQ 3.12** - Message queue
+- **Ollama** - LLM inference engine
+- **Llama 3.1 8B** - Language model
+- **Docker** - Containerization
+- **PRAW** - Reddit API wrapper
+- **SQLAlchemy** - ORM
+- **Pika** - RabbitMQ client
+
+## License
+
+MIT
 
 ## Requirements
 
-- Python 3.8+
-- Reddit API credentials
-- OpenAI API key
+- Docker & Docker Compose
+- Reddit API credentials (free)
+- 8GB+ RAM for LLM service
+- (Optional) NVIDIA GPU for faster processing

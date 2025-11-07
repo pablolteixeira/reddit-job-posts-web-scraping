@@ -1,0 +1,92 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: reddit-postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-reddit_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-reddit_password}
+      POSTGRES_DB: ${POSTGRES_DB:-reddit_jobs}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-reddit_user} -d ${POSTGRES_DB:-reddit_jobs}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  rabbitmq:
+    image: rabbitmq:3.12-management-alpine
+    container_name: reddit-rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: ${RABBITMQ_USER:-guest}
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASSWORD:-guest}
+    ports:
+      - "5672:5672"   # AMQP port
+      - "15672:15672" # Management UI
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  reddit-scraper-cron:
+    build:
+      context: ./reddit_scraper
+      dockerfile: Dockerfile
+    container_name: reddit-scraper-cron
+    env_file:
+      - ./reddit_scraper/.env
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      RABBITMQ_HOST: rabbitmq
+      RABBITMQ_PORT: 5672
+    volumes:
+      - ./cron/crontab:/etc/cron.d/scraper-cron
+      - ./cron/entrypoint.sh:/entrypoint.sh
+    entrypoint: ["/entrypoint.sh"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+    restart: unless-stopped
+
+  llm-consumer:
+    build:
+      context: ./llm_service
+      dockerfile: Dockerfile
+    container_name: llm-consumer
+    env_file:
+      - ./llm_service/.env
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      RABBITMQ_HOST: rabbitmq
+      RABBITMQ_PORT: 5672
+      OLLAMA_MODEL: llama3.1:8b
+    depends_on:
+      postgres:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+    restart: unless-stopped
+    # Allocate more resources for LLM inference
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+        reservations:
+          memory: 2G
+
+volumes:
+  postgres_data:
+  rabbitmq_data:

@@ -1,0 +1,1323 @@
+reddit-scraper-cron  | Running scraper on startup...
+reddit-scraper-cron  | Initializing database...
+reddit-scraper-cron  | Database tables created successfully
+reddit-scraper-cron  | Scraping job posts...
+reddit-scraper-cron  | Version 7.7.1 of praw is outdated. Version 7.8.1 was released Friday October 25, 2024.
+reddit-scraper-cron  | Scraped 100 job posts
+reddit-scraper-cron  | Saving to database...
+reddit-scraper-cron  | Inserted post 1k0gn79 with DB ID 1
+reddit-scraper-cron  | Inserted post 1ml2xun with DB ID 2
+reddit-scraper-cron  | Inserted post 1km8acx with DB ID 3
+reddit-scraper-cron  | Inserted post 1k1m2tg with DB ID 4
+reddit-scraper-cron  | Inserted post 1ldgmxa with DB ID 5
+reddit-postgres      | The files belonging to this database system will be owned by user "postgres".
+reddit-rabbitmq      | 2025-11-07 04:52:43.037037+00:00 [notice] <0.44.0> Application syslog exited with reason: stopped
+reddit-scraper-cron  | Inserted post 1nr27u9 with DB ID 6
+reddit-rabbitmq      | 2025-11-07 04:52:43.040447+00:00 [notice] <0.230.0> Logging: switching to configured handler(s); following messages may not be visible in this log output
+reddit-scraper-cron  | Inserted post 1jszl45 with DB ID 7
+reddit-rabbitmq      | [38;5;87m2025-11-07 04:52:43.040847+00:00 [notice] <0.230.0> Logging: configured log handlers are now ACTIVE[0m
+reddit-scraper-cron  | Inserted post 1lj4gl5 with DB ID 8
+reddit-scraper-cron  | Inserted post 1kbdiyf with DB ID 9
+reddit-rabbitmq      | 2025-11-07 04:52:43.159807+00:00 [info] <0.230.0> ra: starting system quorum_queues[0m
+reddit-rabbitmq      | 2025-11-07 04:52:43.159857+00:00 [info] <0.230.0> starting Ra system: quorum_queues in directory: /var/lib/rabbitmq/mnesia/rabbit@17d7c028c066/quorum/rabbit@17d7c028c066[0m
+reddit-scraper-cron  | Inserted post 1k3bxmi with DB ID 10
+reddit-rabbitmq      | 2025-11-07 04:52:43.196115+00:00 [info] <0.261.0> ra system 'quorum_queues' running pre init for 0 registered servers[0m
+reddit-scraper-cron  | Inserted post 1j093ed with DB ID 11
+reddit-rabbitmq      | 2025-11-07 04:52:43.201743+00:00 [info] <0.262.0> ra: meta data store initialised for system quorum_queues. 0 record(s) recovered[0m
+reddit-scraper-cron  | Inserted post 1loxp3w with DB ID 12
+reddit-scraper-cron  | Inserted post 1jubxo5 with DB ID 13
+llm-consumer         | No GPU detected. Ollama will use CPU (slower but works).
+reddit-postgres      | This user must also own the server process.
+llm-consumer         | Starting Ollama service...
+reddit-postgres      | 
+reddit-rabbitmq      | [38;5;87m2025-11-07 04:52:43.209846+00:00 [notice] <0.267.0> WAL: ra_log_wal init, open tbls: ra_log_open_mem_tables, closed tbls: ra_log_closed_mem_tables[0m
+reddit-rabbitmq      | 2025-11-07 04:52:43.213438+00:00 [info] <0.230.0> ra: starting system coordination[0m
+reddit-rabbitmq      | 2025-11-07 04:52:43.213461+00:00 [info] <0.230.0> starting Ra system: coordination in directory: /var/lib/rabbitmq/mnesia/rabbit@17d7c028c066/coordination/rabbit@17d7c028c066[0m
+reddit-rabbitmq      | 2025-11-07 04:52:43.214128+00:00 [info] <0.274.0> ra system 'coordination' running pre init for 0 registered servers[0m
+reddit-rabbitmq      | 2025-11-07 04:52:43.214511+00:00 [info] <0.275.0> ra: meta data store initialised for system coordination. 0 record(s) recovered[0m
+reddit-rabbitmq      | [38;5;87m2025-11-07 04:52:43.214612+00:00 [notice] <0.280.0> WAL: ra_coordination_log_wal init, open tbls: ra_coordination_log_open_mem_tables, closed tbls: ra_coordination_log_closed_mem_tables[0m
+reddit-rabbitmq      | 2025-11-07 04:52:43.215947+00:00 [info] <0.230.0> [0m
+reddit-scraper-cron  | Inserted post 1iwrn38 with DB ID 14
+reddit-postgres      | The database cluster will be initialized with locale "en_US.utf8".
+reddit-rabbitmq      | 2025-11-07 04:52:43.215947+00:00 [info] <0.230.0>  Starting RabbitMQ 3.12.14 on Erlang 25.3.2.15 [jit][0m
+reddit-postgres      | The default database encoding has accordingly been set to "UTF8".
+reddit-rabbitmq      | 2025-11-07 04:52:43.215947+00:00 [info] <0.230.0>  Copyright (c) 2007-2024 Broadcom Inc and/or its subsidiaries[0m
+reddit-rabbitmq      | 2025-11-07 04:52:43.215947+00:00 [info] <0.230.0>  Licensed under the MPL 2.0. Website: https://rabbitmq.com[0m
+reddit-rabbitmq      | [38;5;160m2025-11-07 04:52:43.215983+00:00 [error] <0.230.0> This release series has reached end of life and is no longer supported. Please visit https://rabbitmq.com/versions.html to learn more and upgrade[0m
+reddit-rabbitmq      | 
+reddit-rabbitmq      |   ##  ##      RabbitMQ 3.12.14
+reddit-rabbitmq      |   ##  ##
+reddit-scraper-cron  | Inserted post 1m3k7n7 with DB ID 15
+reddit-scraper-cron  | Inserted post 1kif3ob with DB ID 16
+reddit-scraper-cron  | Inserted post 1jmyzxh with DB ID 17
+reddit-scraper-cron  | Inserted post 1lva8eo with DB ID 18
+reddit-postgres      | The default text search configuration will be set to "english".
+reddit-rabbitmq      |   ##########  Copyright (c) 2007-2024 Broadcom Inc and/or its subsidiaries
+llm-consumer         | Waiting for Ollama to be ready...
+reddit-rabbitmq      |   ######  ##
+reddit-rabbitmq      |   ##########  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+reddit-postgres      | 
+reddit-postgres      | Data page checksums are disabled.
+reddit-postgres      | 
+reddit-postgres      | fixing permissions on existing directory /var/lib/postgresql/data ... ok
+reddit-postgres      | creating subdirectories ... ok
+reddit-scraper-cron  | Inserted post 1n7ogbe with DB ID 19
+reddit-scraper-cron  | Inserted post 1mh765c with DB ID 20
+reddit-scraper-cron  | Inserted post 1mcphht with DB ID 21
+reddit-scraper-cron  | Inserted post 1j3vzly with DB ID 22
+llm-consumer         | Couldn't find '/root/.ollama/id_ed25519'. Generating new private key.
+reddit-scraper-cron  | Inserted post 1lo3b8e with DB ID 23
+reddit-scraper-cron  | Inserted post 1kr8u1s with DB ID 24
+llm-consumer         | Your new public key is: 
+llm-consumer         | 
+llm-consumer         | ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIED+5w55qSq8jyFFIUvqUHJ/Trc8lGR+00KnYqr3vyEa
+llm-consumer         | 
+reddit-scraper-cron  | Inserted post 1ksmb0r with DB ID 25
+reddit-scraper-cron  | Inserted post 1jkc05h with DB ID 26
+reddit-scraper-cron  | Inserted post 1kyrecu with DB ID 27
+reddit-scraper-cron  | Inserted post 1i6ytg9 with DB ID 28
+reddit-scraper-cron  | Inserted post 1kk4e7r with DB ID 29
+reddit-scraper-cron  | Inserted post 1kpn5a5 with DB ID 30
+reddit-scraper-cron  | Inserted post 1llqkb0 with DB ID 31
+reddit-scraper-cron  | Inserted post 1lzjux5 with DB ID 32
+reddit-scraper-cron  | Inserted post 1ggnetc with DB ID 33
+reddit-scraper-cron  | Inserted post 1iyy3bi with DB ID 34
+reddit-scraper-cron  | Inserted post 1oj2zt5 with DB ID 35
+reddit-scraper-cron  | Inserted post 1lpqa9z with DB ID 36
+reddit-scraper-cron  | Inserted post 1jexhtd with DB ID 37
+reddit-scraper-cron  | Inserted post 1nccg8l with DB ID 38
+reddit-rabbitmq      | 
+reddit-rabbitmq      |   Erlang:      25.3.2.15 [jit]
+reddit-scraper-cron  | Inserted post 1jn95fd with DB ID 39
+reddit-scraper-cron  | Inserted post 1ojf7kl with DB ID 40
+reddit-scraper-cron  | Inserted post 1jcr3r5 with DB ID 41
+reddit-scraper-cron  | Inserted post 1lruiol with DB ID 42
+reddit-scraper-cron  | Inserted post 1lg8xay with DB ID 43
+reddit-scraper-cron  | Inserted post 18kux31 with DB ID 44
+reddit-scraper-cron  | Inserted post 1micqea with DB ID 45
+reddit-scraper-cron  | Inserted post 1n0pye3 with DB ID 46
+reddit-rabbitmq      |   TLS Library: OpenSSL - OpenSSL 3.1.7 3 Sep 2024
+reddit-scraper-cron  | Inserted post 1o5nntn with DB ID 47
+reddit-postgres      | selecting dynamic shared memory implementation ... posix
+reddit-scraper-cron  | Inserted post 1k8rt7h with DB ID 48
+reddit-postgres      | selecting default max_connections ... 100
+reddit-scraper-cron  | Inserted post 1jlw5ry with DB ID 49
+reddit-postgres      | selecting default shared_buffers ... 128MB
+reddit-rabbitmq      |   Release series support status: out of support
+reddit-postgres      | selecting default time zone ... UTC
+reddit-scraper-cron  | Inserted post 1lusd55 with DB ID 50
+reddit-postgres      | creating configuration files ... ok
+reddit-postgres      | running bootstrap script ... ok
+reddit-scraper-cron  | Inserted post 1jta1eg with DB ID 51
+reddit-scraper-cron  | Inserted post 1kh5jyd with DB ID 52
+reddit-scraper-cron  | Inserted post 1mfyolj with DB ID 53
+reddit-scraper-cron  | Inserted post 1omg1fg with DB ID 54
+reddit-scraper-cron  | Inserted post 1luyqs7 with DB ID 55
+reddit-scraper-cron  | Inserted post 1irxz6i with DB ID 56
+reddit-scraper-cron  | Inserted post 1krza8g with DB ID 57
+reddit-scraper-cron  | Inserted post 1knrkv2 with DB ID 58
+reddit-scraper-cron  | Inserted post 1hun9yv with DB ID 59
+reddit-scraper-cron  | Inserted post 1k6purw with DB ID 60
+reddit-scraper-cron  | Inserted post 1nu8mzw with DB ID 61
+reddit-postgres      | sh: locale: not found
+reddit-scraper-cron  | Inserted post 1ky66t0 with DB ID 62
+reddit-postgres      | 2025-11-07 04:52:41.465 UTC [35] WARNING:  no usable system locales were found
+reddit-scraper-cron  | Inserted post 1ktip61 with DB ID 63
+reddit-postgres      | performing post-bootstrap initialization ... ok
+reddit-scraper-cron  | Inserted post 1kugao3 with DB ID 64
+reddit-postgres      | syncing data to disk ... ok
+reddit-scraper-cron  | Inserted post 1ldop2n with DB ID 65
+reddit-postgres      | 
+reddit-scraper-cron  | Inserted post 1jftwzf with DB ID 66
+reddit-scraper-cron  | Inserted post 1o8yw03 with DB ID 67
+reddit-scraper-cron  | Inserted post 1lgb0tb with DB ID 68
+reddit-scraper-cron  | Inserted post 1n7bpuv with DB ID 69
+reddit-scraper-cron  | Inserted post 1j28npj with DB ID 70
+reddit-scraper-cron  | Inserted post 1jop8d6 with DB ID 71
+reddit-scraper-cron  | Inserted post 1ifnt3e with DB ID 72
+reddit-scraper-cron  | Inserted post 1nfigsi with DB ID 73
+reddit-scraper-cron  | Inserted post 1erddob with DB ID 74
+reddit-scraper-cron  | Inserted post 1k7txgm with DB ID 75
+reddit-rabbitmq      | 
+reddit-scraper-cron  | Inserted post 1m3a87z with DB ID 76
+reddit-rabbitmq      |   Doc guides:  https://rabbitmq.com/documentation.html
+llm-consumer         | time=2025-11-07T04:52:51.573Z level=INFO source=routes.go:1525 msg="server config" env="map[CUDA_VISIBLE_DEVICES: GGML_VK_VISIBLE_DEVICES: GPU_DEVICE_ORDINAL: HIP_VISIBLE_DEVICES: HSA_OVERRIDE_GFX_VERSION: HTTPS_PROXY: HTTP_PROXY: NO_PROXY: OLLAMA_CONTEXT_LENGTH:4096 OLLAMA_DEBUG:INFO OLLAMA_FLASH_ATTENTION:false OLLAMA_GPU_OVERHEAD:0 OLLAMA_HOST:http://127.0.0.1:11434 OLLAMA_INTEL_GPU:false OLLAMA_KEEP_ALIVE:5m0s OLLAMA_KV_CACHE_TYPE: OLLAMA_LLM_LIBRARY: OLLAMA_LOAD_TIMEOUT:5m0s OLLAMA_MAX_LOADED_MODELS:0 OLLAMA_MAX_QUEUE:512 OLLAMA_MODELS:/root/.ollama/models OLLAMA_MULTIUSER_CACHE:false OLLAMA_NEW_ENGINE:false OLLAMA_NOHISTORY:false OLLAMA_NOPRUNE:false OLLAMA_NUM_PARALLEL:1 OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:* app://* file://* tauri://* vscode-webview://* vscode-file://*] OLLAMA_REMOTES:[ollama.com] OLLAMA_SCHED_SPREAD:false ROCR_VISIBLE_DEVICES: http_proxy: https_proxy: no_proxy:]"
+reddit-rabbitmq      |   Support:     https://rabbitmq.com/contact.html
+llm-consumer         | time=2025-11-07T04:52:51.573Z level=INFO source=images.go:522 msg="total blobs: 0"
+reddit-rabbitmq      |   Tutorials:   https://rabbitmq.com/getstarted.html
+llm-consumer         | time=2025-11-07T04:52:51.573Z level=INFO source=images.go:529 msg="total unused blobs removed: 0"
+reddit-rabbitmq      |   Monitoring:  https://rabbitmq.com/monitoring.html
+llm-consumer         | time=2025-11-07T04:52:51.573Z level=INFO source=routes.go:1578 msg="Listening on 127.0.0.1:11434 (version 0.12.10)"
+llm-consumer         | time=2025-11-07T04:52:51.574Z level=INFO source=runner.go:67 msg="discovering available GPUs..."
+llm-consumer         | time=2025-11-07T04:52:51.574Z level=INFO source=server.go:400 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 44965"
+llm-consumer         | time=2025-11-07T04:52:51.603Z level=INFO source=server.go:400 msg="starting runner" cmd="/usr/local/bin/ollama runner --ollama-engine --port 38639"
+llm-consumer         | time=2025-11-07T04:52:51.631Z level=INFO source=types.go:60 msg="inference compute" id=cpu library=cpu compute="" name=cpu description=cpu libdirs=ollama driver="" pci_id="" type="" total="15.5 GiB" available="9.1 GiB"
+llm-consumer         | time=2025-11-07T04:52:51.631Z level=INFO source=routes.go:1619 msg="entering low vram mode" "total vram"="0 B" threshold="20.0 GiB"
+llm-consumer         | Pulling Ollama model: llama3.1:8b
+llm-consumer         | [GIN] 2025/11/07 - 04:52:56 | 200 |      42.949µs |       127.0.0.1 | HEAD     "/"
+reddit-rabbitmq      | 
+llm-consumer         | [?2026h[?25l[1Gpulling manifest ⠋ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠙ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠹ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠸ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠼ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠴ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠦ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠧ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠇ [K[?25h[?2026ltime=2025-11-07T04:52:57.527Z level=INFO source=download.go:177 msg="downloading 667b0c1932bc in 16 307 MB part(s)"
+reddit-rabbitmq      |   Logs: <stdout>
+llm-consumer         | [?2026h[?25l[1Gpulling manifest ⠏ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠋ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠙ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠸ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest ⠸ [K[?25h[?2026l[?2026h[?25l[1Gpulling manifest [K
+reddit-rabbitmq      | 
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  17 KB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      |   Config file(s): /etc/rabbitmq/conf.d/10-defaults.conf
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  82 KB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 211 KB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      |   Starting broker...2025-11-07 04:52:43.221979+00:00 [info] <0.230.0> [0m
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 328 KB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:43.221979+00:00 [info] <0.230.0>  node           : rabbit@17d7c028c066[0m
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 397 KB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:43.221979+00:00 [info] <0.230.0>  home dir       : /var/lib/rabbitmq[0m
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 439 KB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:43.221979+00:00 [info] <0.230.0>  config file(s) : /etc/rabbitmq/conf.d/10-defaults.conf[0m
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 501 KB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:43.221979+00:00 [info] <0.230.0>  cookie hash    : I68sO+2AfYrMH8LoaFz7Yw==[0m
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 616 KB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:43.221979+00:00 [info] <0.230.0>  log(s)         : <stdout>[0m
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 798 KB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-postgres      | 
+reddit-rabbitmq      | 2025-11-07 04:52:43.221979+00:00 [info] <0.230.0>  data dir       : /var/lib/rabbitmq/mnesia/rabbit@17d7c028c066[0m
+reddit-scraper-cron  | Inserted post 1j8ra26 with DB ID 77
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 1.0 MB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Inserted post 1m8h305 with DB ID 78
+reddit-scraper-cron  | Inserted post 1on6wan with DB ID 79
+reddit-scraper-cron  | Inserted post 1j7pc7c with DB ID 80
+reddit-scraper-cron  | Inserted post 1lo736s with DB ID 81
+reddit-scraper-cron  | Inserted post 1mstvkb with DB ID 82
+reddit-scraper-cron  | Inserted post 1cnjpzk with DB ID 83
+reddit-scraper-cron  | Inserted post 1lej9xe with DB ID 84
+reddit-postgres      | Success. You can now start the database server using:
+reddit-scraper-cron  | Inserted post 1o81k5f with DB ID 85
+reddit-rabbitmq      | 2025-11-07 04:52:45.031269+00:00 [info] <0.230.0> Running boot step pre_boot defined by app rabbit[0m
+reddit-scraper-cron  | Inserted post 1km8j2o with DB ID 86
+reddit-rabbitmq      | 2025-11-07 04:52:45.031311+00:00 [info] <0.230.0> Running boot step rabbit_global_counters defined by app rabbit[0m
+reddit-scraper-cron  | Inserted post 1jpzfps with DB ID 87
+reddit-rabbitmq      | 2025-11-07 04:52:45.031622+00:00 [info] <0.230.0> Running boot step rabbit_osiris_metrics defined by app rabbit[0m
+reddit-scraper-cron  | Inserted post 1m8p9b5 with DB ID 88
+reddit-postgres      | 
+reddit-scraper-cron  | Inserted post 1ij8rb7 with DB ID 89
+reddit-postgres      |     pg_ctl -D /var/lib/postgresql/data -l logfile start
+reddit-rabbitmq      | 2025-11-07 04:52:45.031709+00:00 [info] <0.230.0> Running boot step rabbit_core_metrics defined by app rabbit[0m
+reddit-postgres      | 
+reddit-rabbitmq      | 2025-11-07 04:52:45.032713+00:00 [info] <0.230.0> Running boot step rabbit_alarm defined by app rabbit[0m
+reddit-postgres      | initdb: warning: enabling "trust" authentication for local connections
+reddit-rabbitmq      | 2025-11-07 04:52:45.035823+00:00 [info] <0.299.0> Memory high watermark set to 6336 MiB (6644523008 bytes) of 15841 MiB (16611307520 bytes) total[0m
+reddit-postgres      | initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+reddit-rabbitmq      | 2025-11-07 04:52:45.037476+00:00 [info] <0.301.0> Enabling free disk space monitoring (disk free space: 46821617664, total memory: 16611307520)[0m
+reddit-postgres      | waiting for server to start....2025-11-07 04:52:42.030 UTC [41] LOG:  starting PostgreSQL 16.10 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit
+reddit-scraper-cron  | Inserted post 1n8o7eq with DB ID 90
+reddit-rabbitmq      | 2025-11-07 04:52:45.037510+00:00 [info] <0.301.0> Disk free limit set to 50MB[0m
+reddit-scraper-cron  | Inserted post 1j4zitk with DB ID 91
+reddit-rabbitmq      | 2025-11-07 04:52:45.038354+00:00 [info] <0.230.0> Running boot step code_server_cache defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.038400+00:00 [info] <0.230.0> Running boot step file_handle_cache defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.038539+00:00 [info] <0.304.0> Limiting to approx 1048479 file handles (943629 sockets)[0m
+reddit-postgres      | 2025-11-07 04:52:42.031 UTC [41] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+reddit-scraper-cron  | Inserted post 1kpyipq with DB ID 92
+reddit-scraper-cron  | Inserted post 1nsv50c with DB ID 93
+reddit-postgres      | 2025-11-07 04:52:42.034 UTC [44] LOG:  database system was shut down at 2025-11-07 04:52:41 UTC
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 1.1 MB/4.9 GB                  [K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-postgres      | 2025-11-07 04:52:42.039 UTC [41] LOG:  database system is ready to accept connections
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 1.2 MB/4.9 GB  1.1 MB/s   1h16m[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 1.5 MB/4.9 GB  1.1 MB/s   1h16m[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 1.5 MB/4.9 GB  1.1 MB/s   1h16m[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 2.1 MB/4.9 GB  1.1 MB/s   1h16m[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 2.7 MB/4.9 GB  1.1 MB/s   1h16m[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 3.1 MB/4.9 GB  1.1 MB/s   1h16m[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 3.2 MB/4.9 GB  1.1 MB/s   1h16m[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:45.038635+00:00 [info] <0.305.0> FHC read buffering: OFF[0m
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 3.4 MB/4.9 GB  1.1 MB/s   1h16m[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:45.038666+00:00 [info] <0.305.0> FHC write buffering: ON[0m
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 3.6 MB/4.9 GB  1.1 MB/s   1h16m[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:45.039008+00:00 [info] <0.230.0> Running boot step worker_pool defined by app rabbit[0m
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 4.0 MB/4.9 GB  1.1 MB/s   1h16m[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:45.039059+00:00 [info] <0.282.0> Will use 16 processes for default worker pool[0m
+reddit-postgres      |  done
+reddit-rabbitmq      | 2025-11-07 04:52:45.039082+00:00 [info] <0.282.0> Starting worker pool 'worker_pool' with 16 processes in it[0m
+reddit-postgres      | server started
+reddit-scraper-cron  | Inserted post 1nd46x0 with DB ID 94
+reddit-postgres      | CREATE DATABASE
+reddit-scraper-cron  | Inserted post 1jiucrg with DB ID 95
+reddit-postgres      | 
+reddit-scraper-cron  | Inserted post 1mzy9ar with DB ID 96
+reddit-postgres      | 
+reddit-scraper-cron  | Inserted post 1j3q6br with DB ID 97
+reddit-rabbitmq      | 2025-11-07 04:52:45.039490+00:00 [info] <0.230.0> Running boot step database defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.039769+00:00 [info] <0.230.0> Node database directory at /var/lib/rabbitmq/mnesia/rabbit@17d7c028c066 is empty. Assuming we need to join an existing cluster or initialise from scratch...[0m
+reddit-postgres      | /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+reddit-postgres      | 
+reddit-postgres      | waiting for server to shut down....2025-11-07 04:52:42.183 UTC [41] LOG:  received fast shutdown request
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 4.3 MB/4.9 GB  2.0 MB/s  39m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:45.039800+00:00 [info] <0.230.0> Configured peer discovery backend: rabbit_peer_discovery_classic_config[0m
+reddit-scraper-cron  | Inserted post 1k1ttqt with DB ID 98
+reddit-rabbitmq      | 2025-11-07 04:52:45.039821+00:00 [info] <0.230.0> Will try to lock with peer discovery backend rabbit_peer_discovery_classic_config[0m
+reddit-scraper-cron  | Inserted post 1j7a4vk with DB ID 99
+reddit-rabbitmq      | 2025-11-07 04:52:45.039844+00:00 [info] <0.230.0> All discovered existing cluster peers:[0m
+reddit-scraper-cron  | Inserted post 1k44cwh with DB ID 100
+reddit-rabbitmq      | 2025-11-07 04:52:45.039855+00:00 [info] <0.230.0> Discovered no peer nodes to cluster with. Some discovery backends can filter nodes out based on a readiness criteria. Enabling debug logging might help troubleshoot.[0m
+reddit-rabbitmq      | [38;5;87m2025-11-07 04:52:45.040912+00:00 [notice] <0.44.0> Application mnesia exited with reason: stopped[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.083597+00:00 [info] <0.230.0> Waiting for Mnesia tables for 30000 ms, 9 retries left[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.083689+00:00 [info] <0.230.0> Successfully synced tables from a peer[0m
+reddit-rabbitmq      | [38;5;87m2025-11-07 04:52:45.083957+00:00 [notice] <0.283.0> Feature flags: attempt to enable `stream_sac_coordinator_unblock_group`...[0m
+reddit-rabbitmq      | [38;5;87m2025-11-07 04:52:45.101822+00:00 [notice] <0.283.0> Feature flags: `stream_sac_coordinator_unblock_group` enabled[0m
+reddit-rabbitmq      | [38;5;87m2025-11-07 04:52:45.101955+00:00 [notice] <0.283.0> Feature flags: attempt to enable `restart_streams`...[0m
+reddit-rabbitmq      | [38;5;87m2025-11-07 04:52:45.117836+00:00 [notice] <0.283.0> Feature flags: `restart_streams` enabled[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.117978+00:00 [info] <0.230.0> Waiting for Mnesia tables for 30000 ms, 9 retries left[0m
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 4.5 MB/4.9 GB  2.0 MB/s  39m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:45.118053+00:00 [info] <0.230.0> Successfully synced tables from a peer[0m
+reddit-scraper-cron  | Successfully saved 100 new posts to database
+reddit-postgres      | 2025-11-07 04:52:42.184 UTC [41] LOG:  aborting any active transactions
+reddit-scraper-cron  | Publishing to message queue...
+reddit-postgres      | 2025-11-07 04:52:42.187 UTC [41] LOG:  background worker "logical replication launcher" (PID 47) exited with exit code 1
+reddit-postgres      | 2025-11-07 04:52:42.187 UTC [42] LOG:  shutting down
+reddit-postgres      | 2025-11-07 04:52:42.187 UTC [42] LOG:  checkpoint starting: shutdown immediate
+reddit-postgres      | 2025-11-07 04:52:42.225 UTC [42] LOG:  checkpoint complete: wrote 926 buffers (5.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.018 s, sync=0.017 s, total=0.038 s; sync files=301, longest=0.001 s, average=0.001 s; distance=4272 kB, estimate=4272 kB; lsn=0/191E928, redo lsn=0/191E928
+reddit-postgres      | 2025-11-07 04:52:42.232 UTC [41] LOG:  database system is shut down
+reddit-postgres      |  done
+reddit-postgres      | server stopped
+reddit-rabbitmq      | 2025-11-07 04:52:45.121007+00:00 [info] <0.230.0> Waiting for Mnesia tables for 30000 ms, 9 retries left[0m
+reddit-postgres      | 
+reddit-rabbitmq      | 2025-11-07 04:52:45.121077+00:00 [info] <0.230.0> Successfully synced tables from a peer[0m
+reddit-postgres      | PostgreSQL init process complete; ready for start up.
+reddit-scraper-cron  | Connected to RabbitMQ at rabbitmq:5672
+reddit-postgres      | 
+reddit-scraper-cron  | Published job_id 1 to queue
+reddit-postgres      | 2025-11-07 04:52:42.305 UTC [1] LOG:  starting PostgreSQL 16.10 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit
+reddit-scraper-cron  | Published job_id 2 to queue
+reddit-postgres      | 2025-11-07 04:52:42.305 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+reddit-scraper-cron  | Published job_id 3 to queue
+reddit-postgres      | 2025-11-07 04:52:42.305 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+reddit-scraper-cron  | Published job_id 4 to queue
+reddit-postgres      | 2025-11-07 04:52:42.307 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+reddit-scraper-cron  | Published job_id 5 to queue
+reddit-postgres      | 2025-11-07 04:52:42.310 UTC [57] LOG:  database system was shut down at 2025-11-07 04:52:42 UTC
+reddit-scraper-cron  | Published job_id 6 to queue
+reddit-postgres      | 2025-11-07 04:52:42.315 UTC [1] LOG:  database system is ready to accept connections
+reddit-scraper-cron  | Published job_id 7 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 4.7 MB/4.9 GB  2.0 MB/s  39m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:45.121094+00:00 [info] <0.230.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.[0m
+reddit-scraper-cron  | Published job_id 8 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.121109+00:00 [info] <0.230.0> Will try to unlock with peer discovery backend rabbit_peer_discovery_classic_config[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.121207+00:00 [info] <0.230.0> Running boot step tracking_metadata_store defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.121261+00:00 [info] <0.494.0> Setting up a table for connection tracking on this node: tracked_connection[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.121304+00:00 [info] <0.494.0> Setting up a table for per-vhost connection counting on this node: tracked_connection_per_vhost[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.121352+00:00 [info] <0.494.0> Setting up a table for per-user connection counting on this node: tracked_connection_per_user[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.121382+00:00 [info] <0.494.0> Setting up a table for channel tracking on this node: tracked_channel[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.121416+00:00 [info] <0.494.0> Setting up a table for channel tracking on this node: tracked_channel_per_user[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.121469+00:00 [info] <0.230.0> Running boot step networking_metadata_store defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.121531+00:00 [info] <0.230.0> Running boot step feature_flags defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.121625+00:00 [info] <0.230.0> Running boot step codec_correctness_check defined by app rabbit[0m
+reddit-scraper-cron  | Published job_id 9 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 5.2 MB/4.9 GB  2.0 MB/s  39m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 10 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 5.3 MB/4.9 GB  2.0 MB/s  39m58s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 11 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.121647+00:00 [info] <0.230.0> Running boot step external_infrastructure defined by app rabbit[0m
+reddit-scraper-cron  | Published job_id 12 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.121667+00:00 [info] <0.230.0> Running boot step rabbit_event defined by app rabbit[0m
+reddit-scraper-cron  | Published job_id 13 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.121737+00:00 [info] <0.230.0> Running boot step rabbit_registry defined by app rabbit[0m
+reddit-scraper-cron  | Published job_id 14 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.121772+00:00 [info] <0.230.0> Running boot step rabbit_auth_mechanism_amqplain defined by app rabbit[0m
+reddit-scraper-cron  | Published job_id 15 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.121810+00:00 [info] <0.230.0> Running boot step rabbit_auth_mechanism_cr_demo defined by app rabbit[0m
+reddit-scraper-cron  | Published job_id 16 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.121836+00:00 [info] <0.230.0> Running boot step rabbit_auth_mechanism_plain defined by app rabbit[0m
+reddit-scraper-cron  | Published job_id 17 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.121856+00:00 [info] <0.230.0> Running boot step rabbit_exchange_type_direct defined by app rabbit[0m
+reddit-scraper-cron  | Published job_id 18 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.121877+00:00 [info] <0.230.0> Running boot step rabbit_exchange_type_fanout defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.121897+00:00 [info] <0.230.0> Running boot step rabbit_exchange_type_headers defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.121935+00:00 [info] <0.230.0> Running boot step rabbit_exchange_type_topic defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.121977+00:00 [info] <0.230.0> Running boot step rabbit_mirror_queue_mode_all defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.122004+00:00 [info] <0.230.0> Running boot step rabbit_mirror_queue_mode_exactly defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.122026+00:00 [info] <0.230.0> Running boot step rabbit_mirror_queue_mode_nodes defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.122047+00:00 [info] <0.230.0> Running boot step rabbit_priority_queue defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.122059+00:00 [info] <0.230.0> Priority queues enabled, real BQ is rabbit_variable_queue[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.122095+00:00 [info] <0.230.0> Running boot step rabbit_queue_location_client_local defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.122148+00:00 [info] <0.230.0> Running boot step rabbit_queue_location_min_masters defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.122177+00:00 [info] <0.230.0> Running boot step rabbit_queue_location_random defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.122218+00:00 [info] <0.230.0> Running boot step kernel_ready defined by app rabbit[0m
+reddit-scraper-cron  | Published job_id 19 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.122232+00:00 [info] <0.230.0> Running boot step rabbit_sysmon_minder defined by app rabbit[0m
+reddit-scraper-cron  | Published job_id 20 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.122313+00:00 [info] <0.230.0> Running boot step rabbit_epmd_monitor defined by app rabbit[0m
+reddit-scraper-cron  | Published job_id 21 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.122779+00:00 [info] <0.502.0> epmd monitor knows us, inter-node communication (distribution) port: 25672[0m
+reddit-scraper-cron  | Published job_id 22 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.122845+00:00 [info] <0.230.0> Running boot step guid_generator defined by app rabbit[0m
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 6.1 MB/4.9 GB  2.0 MB/s  39m58s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 23 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 7.0 MB/4.9 GB  2.0 MB/s  39m58s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 24 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 7.2 MB/4.9 GB  2.0 MB/s  39m58s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 25 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 7.6 MB/4.9 GB  2.0 MB/s  39m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 26 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 8.1 MB/4.9 GB  2.0 MB/s  39m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 27 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 8.1 MB/4.9 GB  2.7 MB/s  30m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 28 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏ 8.9 MB/4.9 GB  2.7 MB/s  30m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 29 to queue
+reddit-scraper-cron  | Published job_id 30 to queue
+reddit-scraper-cron  | Published job_id 31 to queue
+reddit-scraper-cron  | Published job_id 32 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  10 MB/4.9 GB  2.7 MB/s  30m17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  10 MB/4.9 GB  2.7 MB/s  30m17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:45.123841+00:00 [info] <0.230.0> Running boot step rabbit_node_monitor defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.124010+00:00 [info] <0.506.0> Starting rabbit_node_monitor (in ignore mode)[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.124095+00:00 [info] <0.230.0> Running boot step delegate_sup defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.124404+00:00 [info] <0.230.0> Running boot step rabbit_memory_monitor defined by app rabbit[0m
+reddit-scraper-cron  | Published job_id 33 to queue
+reddit-scraper-cron  | Published job_id 34 to queue
+reddit-scraper-cron  | Published job_id 35 to queue
+reddit-scraper-cron  | Published job_id 36 to queue
+reddit-scraper-cron  | Published job_id 37 to queue
+reddit-scraper-cron  | Published job_id 38 to queue
+reddit-scraper-cron  | Published job_id 39 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  11 MB/4.9 GB  2.7 MB/s  30m17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 40 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  11 MB/4.9 GB  2.7 MB/s  30m17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 41 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  12 MB/4.9 GB  2.7 MB/s  30m16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 42 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.124490+00:00 [info] <0.230.0> Running boot step rabbit_fifo_dlx_sup defined by app rabbit[0m
+reddit-scraper-cron  | Published job_id 43 to queue
+reddit-scraper-cron  | Published job_id 44 to queue
+reddit-scraper-cron  | Published job_id 45 to queue
+reddit-scraper-cron  | Published job_id 46 to queue
+reddit-scraper-cron  | Published job_id 47 to queue
+reddit-scraper-cron  | Published job_id 48 to queue
+reddit-scraper-cron  | Published job_id 49 to queue
+reddit-scraper-cron  | Published job_id 50 to queue
+reddit-scraper-cron  | Published job_id 51 to queue
+reddit-scraper-cron  | Published job_id 52 to queue
+reddit-scraper-cron  | Published job_id 53 to queue
+reddit-scraper-cron  | Published job_id 54 to queue
+reddit-scraper-cron  | Published job_id 55 to queue
+reddit-scraper-cron  | Published job_id 56 to queue
+reddit-scraper-cron  | Published job_id 57 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.124531+00:00 [info] <0.230.0> Running boot step core_initialized defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.124545+00:00 [info] <0.230.0> Running boot step rabbit_channel_tracking_handler defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.124584+00:00 [info] <0.230.0> Running boot step rabbit_connection_tracking_handler defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.124613+00:00 [info] <0.230.0> Running boot step rabbit_definitions_hashing defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.124662+00:00 [info] <0.230.0> Running boot step rabbit_exchange_parameters defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.124824+00:00 [info] <0.230.0> Running boot step rabbit_mirror_queue_misc defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.124990+00:00 [info] <0.230.0> Running boot step rabbit_policies defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.125177+00:00 [info] <0.230.0> Running boot step rabbit_policy defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.125220+00:00 [info] <0.230.0> Running boot step rabbit_queue_location_validator defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.125255+00:00 [info] <0.230.0> Running boot step rabbit_quorum_memory_manager defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.125298+00:00 [info] <0.230.0> Running boot step rabbit_stream_coordinator defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.125361+00:00 [info] <0.230.0> Running boot step rabbit_vhost_limit defined by app rabbit[0m
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  13 MB/4.9 GB  2.7 MB/s  30m16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  13 MB/4.9 GB  2.7 MB/s  30m16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 58 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.125397+00:00 [info] <0.230.0> Running boot step rabbit_mgmt_reset_handler defined by app rabbitmq_management[0m
+reddit-scraper-cron  | Published job_id 59 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  13 MB/4.9 GB  2.7 MB/s  30m16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 60 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  14 MB/4.9 GB  3.6 MB/s  22m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 61 to queue
+reddit-scraper-cron  | Published job_id 62 to queue
+reddit-scraper-cron  | Published job_id 63 to queue
+reddit-scraper-cron  | Published job_id 64 to queue
+reddit-scraper-cron  | Published job_id 65 to queue
+reddit-scraper-cron  | Published job_id 66 to queue
+reddit-scraper-cron  | Published job_id 67 to queue
+reddit-scraper-cron  | Published job_id 68 to queue
+reddit-scraper-cron  | Published job_id 69 to queue
+reddit-scraper-cron  | Published job_id 70 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.125427+00:00 [info] <0.230.0> Running boot step rabbit_mgmt_db_handler defined by app rabbitmq_management_agent[0m
+reddit-scraper-cron  | Published job_id 71 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.125447+00:00 [info] <0.230.0> Management plugin: using rates mode 'basic'[0m
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  15 MB/4.9 GB  3.6 MB/s  22m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:45.125597+00:00 [info] <0.230.0> Running boot step recovery defined by app rabbit[0m
+reddit-scraper-cron  | Published job_id 72 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  15 MB/4.9 GB  3.6 MB/s  22m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 73 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  15 MB/4.9 GB  3.6 MB/s  22m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 74 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  15 MB/4.9 GB  3.6 MB/s  22m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 75 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  16 MB/4.9 GB  3.6 MB/s  22m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 76 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.126012+00:00 [info] <0.230.0> Running boot step empty_db_check defined by app rabbit[0m
+reddit-scraper-cron  | Published job_id 77 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.126038+00:00 [info] <0.230.0> Will seed default virtual host and user...[0m
+reddit-scraper-cron  | Published job_id 78 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.126119+00:00 [info] <0.230.0> Adding vhost '/' (description: 'Default virtual host', tags: [])[0m
+reddit-scraper-cron  | Published job_id 79 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.126973+00:00 [info] <0.230.0> Inserted a virtual host record {vhost,<<"/">>,[],[0m
+reddit-scraper-cron  | Published job_id 80 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.126973+00:00 [info] <0.230.0>                                       #{description =>[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.126973+00:00 [info] <0.230.0>                                             <<"Default virtual host">>,[0m
+reddit-scraper-cron  | Published job_id 81 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  17 MB/4.9 GB  3.6 MB/s  22m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  17 MB/4.9 GB  3.6 MB/s  22m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  18 MB/4.9 GB  3.6 MB/s  22m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  18 MB/4.9 GB  3.6 MB/s  22m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  18 MB/4.9 GB  3.8 MB/s  21m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  19 MB/4.9 GB  3.8 MB/s  21m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  19 MB/4.9 GB  3.8 MB/s  21m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  20 MB/4.9 GB  3.8 MB/s  21m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  20 MB/4.9 GB  3.8 MB/s  21m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  20 MB/4.9 GB  3.8 MB/s  21m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 82 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  22 MB/4.9 GB  3.8 MB/s  21m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 83 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  22 MB/4.9 GB  3.8 MB/s  21m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 84 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  22 MB/4.9 GB  3.8 MB/s  21m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 85 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  23 MB/4.9 GB  3.8 MB/s  21m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 86 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  23 MB/4.9 GB  3.8 MB/s  21m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 87 to queue
+llm-consumer         | pulling 667b0c1932bc:   0% ▕                  ▏  24 MB/4.9 GB  4.0 MB/s  20m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 88 to queue
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  24 MB/4.9 GB  4.0 MB/s  20m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 89 to queue
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  24 MB/4.9 GB  4.0 MB/s  20m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 90 to queue
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  25 MB/4.9 GB  4.0 MB/s  20m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 91 to queue
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  26 MB/4.9 GB  4.0 MB/s  20m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 92 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.126973+00:00 [info] <0.230.0>                                         tags => []}}[0m
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  26 MB/4.9 GB  4.0 MB/s  20m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:45.132466+00:00 [info] <0.551.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@17d7c028c066/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.132937+00:00 [info] <0.551.0> Setting segment_entry_count for vhost '/' with 0 queues to '2048'[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.134558+00:00 [info] <0.551.0> Starting message stores for vhost '/'[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.134667+00:00 [info] <0.561.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.135280+00:00 [info] <0.551.0> Started message store of type transient for vhost '/'[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.135363+00:00 [info] <0.565.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index[0m
+reddit-rabbitmq      | [38;5;214m2025-11-07 04:52:45.135669+00:00 [warning] <0.565.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.136094+00:00 [info] <0.551.0> Started message store of type persistent for vhost '/'[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.136154+00:00 [info] <0.551.0> Recovering 0 queues of type rabbit_classic_queue took 3ms[0m
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  26 MB/4.9 GB  4.0 MB/s  20m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:45.136182+00:00 [info] <0.551.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms[0m
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  26 MB/4.9 GB  4.0 MB/s  20m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:45.136200+00:00 [info] <0.551.0> Recovering 0 queues of type rabbit_stream_queue took 0ms[0m
+reddit-scraper-cron  | Published job_id 93 to queue
+reddit-rabbitmq      | 2025-11-07 04:52:45.137626+00:00 [info] <0.230.0> Created user 'guest'[0m
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  27 MB/4.9 GB  4.0 MB/s  20m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-scraper-cron  | Published job_id 94 to queue
+reddit-scraper-cron  | Published job_id 95 to queue
+reddit-scraper-cron  | Published job_id 96 to queue
+reddit-scraper-cron  | Published job_id 97 to queue
+reddit-scraper-cron  | Published job_id 98 to queue
+reddit-scraper-cron  | Published job_id 99 to queue
+reddit-scraper-cron  | Published job_id 100 to queue
+reddit-scraper-cron  | Published 100 job IDs to queue
+reddit-scraper-cron  | RabbitMQ connection closed
+reddit-scraper-cron  | Initial scraper run completed. Cron will handle subsequent runs every 2 hours.
+reddit-scraper-cron  | Published job_id 93 to queue
+reddit-scraper-cron  | Published job_id 94 to queue
+reddit-scraper-cron  | Published job_id 95 to queue
+reddit-scraper-cron  | Published job_id 96 to queue
+reddit-scraper-cron  | Published job_id 97 to queue
+reddit-scraper-cron  | Published job_id 98 to queue
+reddit-scraper-cron  | Published job_id 99 to queue
+reddit-scraper-cron  | Published job_id 100 to queue
+reddit-scraper-cron  | Published 100 job IDs to queue
+reddit-scraper-cron  | RabbitMQ connection closed
+reddit-rabbitmq      | 2025-11-07 04:52:45.138415+00:00 [info] <0.230.0> Successfully set user tags for user 'guest' to [administrator][0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.139212+00:00 [info] <0.230.0> Successfully set permissions for user 'guest' in virtual host '/' to '.*', '.*', '.*'[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.139242+00:00 [info] <0.230.0> Running boot step rabbit_observer_cli defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.139281+00:00 [info] <0.230.0> Running boot step rabbit_looking_glass defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.139316+00:00 [info] <0.230.0> Running boot step rabbit_core_metrics_gc defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.139400+00:00 [info] <0.230.0> Running boot step background_gc defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.139471+00:00 [info] <0.230.0> Running boot step routing_ready defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.139487+00:00 [info] <0.230.0> Running boot step pre_flight defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.139518+00:00 [info] <0.230.0> Running boot step notify_cluster defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.139539+00:00 [info] <0.230.0> Running boot step networking defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.139557+00:00 [info] <0.230.0> Running boot step definition_import_worker_pool defined by app rabbit[0m
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  27 MB/4.9 GB  4.0 MB/s  20m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  28 MB/4.9 GB  4.0 MB/s  20m27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  28 MB/4.9 GB  4.0 MB/s  20m27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  29 MB/4.9 GB  4.0 MB/s  20m27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  29 MB/4.9 GB  4.0 MB/s  20m27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  30 MB/4.9 GB  4.0 MB/s  20m27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  30 MB/4.9 GB  4.0 MB/s  20m27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  31 MB/4.9 GB  4.0 MB/s  20m27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  31 MB/4.9 GB  4.0 MB/s  20m27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  32 MB/4.9 GB  4.0 MB/s  20m26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  32 MB/4.9 GB  4.0 MB/s  20m26s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  33 MB/4.9 GB  4.1 MB/s  19m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  33 MB/4.9 GB  4.1 MB/s  19m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  34 MB/4.9 GB  4.1 MB/s  19m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  34 MB/4.9 GB  4.1 MB/s  19m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  34 MB/4.9 GB  4.1 MB/s  19m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  35 MB/4.9 GB  4.1 MB/s  19m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  35 MB/4.9 GB  4.1 MB/s  19m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  36 MB/4.9 GB  4.1 MB/s  19m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  37 MB/4.9 GB  4.1 MB/s  19m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  37 MB/4.9 GB  4.1 MB/s  19m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  37 MB/4.9 GB  4.2 MB/s  19m32s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  37 MB/4.9 GB  4.2 MB/s  19m32s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  38 MB/4.9 GB  4.2 MB/s  19m32s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:45.139605+00:00 [info] <0.282.0> Starting worker pool 'definition_import_pool' with 16 processes in it[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.140130+00:00 [info] <0.230.0> Running boot step cluster_name defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.140178+00:00 [info] <0.230.0> Initialising internal cluster ID to 'rabbitmq-cluster-id-SbEJV_7K4ArcN-j9lJReew'[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.141895+00:00 [info] <0.230.0> Running boot step direct_client defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.141950+00:00 [info] <0.230.0> Running boot step rabbit_maintenance_mode_state defined by app rabbit[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.141978+00:00 [info] <0.230.0> Creating table rabbit_node_maintenance_states for maintenance mode status[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.144631+00:00 [info] <0.230.0> Running boot step rabbit_management_load_definitions defined by app rabbitmq_management[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.144705+00:00 [info] <0.617.0> Resetting node maintenance status[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.153587+00:00 [info] <0.676.0> Management plugin: HTTP (non-TLS) listener started on port 15672[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.153687+00:00 [info] <0.704.0> Statistics database started.[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.153751+00:00 [info] <0.703.0> Starting worker pool 'management_worker_pool' with 3 processes in it[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.159984+00:00 [info] <0.718.0> Prometheus metrics: HTTP (non-TLS) listener started on port 15692[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.160059+00:00 [info] <0.617.0> Ready to start client connection listeners[0m
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  38 MB/4.9 GB  4.2 MB/s  19m31s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  39 MB/4.9 GB  4.2 MB/s  19m31s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  39 MB/4.9 GB  4.2 MB/s  19m31s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  40 MB/4.9 GB  4.2 MB/s  19m31s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:45.161159+00:00 [info] <0.762.0> started TCP listener on [::]:5672[0m
+reddit-rabbitmq      |  completed with 4 plugins.
+reddit-rabbitmq      | 2025-11-07 04:52:45.207637+00:00 [info] <0.617.0> Server startup complete; 4 plugins started.[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.207637+00:00 [info] <0.617.0>  * rabbitmq_prometheus[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.207637+00:00 [info] <0.617.0>  * rabbitmq_management[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.207637+00:00 [info] <0.617.0>  * rabbitmq_management_agent[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.207637+00:00 [info] <0.617.0>  * rabbitmq_web_dispatch[0m
+reddit-rabbitmq      | 2025-11-07 04:52:45.345962+00:00 [info] <0.9.0> Time to start RabbitMQ: 4208062 us[0m
+reddit-rabbitmq      | 2025-11-07 04:52:59.801000+00:00 [info] <0.768.0> accepting AMQP connection <0.768.0> (172.19.0.5:47980 -> 172.19.0.2:5672)[0m
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  40 MB/4.9 GB  4.2 MB/s  19m31s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:59.802381+00:00 [info] <0.768.0> connection <0.768.0> (172.19.0.5:47980 -> 172.19.0.2:5672): user 'guest' authenticated and granted access to vhost '/'[0m
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  40 MB/4.9 GB  4.2 MB/s  19m31s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+reddit-rabbitmq      | 2025-11-07 04:52:59.815549+00:00 [info] <0.768.0> closing AMQP connection <0.768.0> (172.19.0.5:47980 -> 172.19.0.2:5672, vhost: '/', user: 'guest')[0m
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  41 MB/4.9 GB  4.2 MB/s  19m31s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  41 MB/4.9 GB  4.5 MB/s  17m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  42 MB/4.9 GB  4.5 MB/s  17m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  42 MB/4.9 GB  4.5 MB/s  17m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  43 MB/4.9 GB  4.5 MB/s  17m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  43 MB/4.9 GB  4.5 MB/s  17m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  43 MB/4.9 GB  4.5 MB/s  17m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  43 MB/4.9 GB  4.5 MB/s  17m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  44 MB/4.9 GB  4.5 MB/s  17m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  44 MB/4.9 GB  4.5 MB/s  17m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  44 MB/4.9 GB  4.5 MB/s  17m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  45 MB/4.9 GB  4.5 MB/s  17m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  45 MB/4.9 GB  4.6 MB/s  17m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  46 MB/4.9 GB  4.6 MB/s  17m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  46 MB/4.9 GB  4.6 MB/s  17m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  47 MB/4.9 GB  4.6 MB/s  17m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  47 MB/4.9 GB  4.6 MB/s  17m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  47 MB/4.9 GB  4.6 MB/s  17m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  48 MB/4.9 GB  4.6 MB/s  17m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  49 MB/4.9 GB  4.6 MB/s  17m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  49 MB/4.9 GB  4.6 MB/s  17m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  49 MB/4.9 GB  4.6 MB/s  17m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  50 MB/4.9 GB  4.6 MB/s  17m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  50 MB/4.9 GB  4.6 MB/s  17m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  51 MB/4.9 GB  4.6 MB/s  17m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  52 MB/4.9 GB  4.6 MB/s  17m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  52 MB/4.9 GB  4.6 MB/s  17m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  53 MB/4.9 GB  4.6 MB/s  17m29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  54 MB/4.9 GB  4.6 MB/s  17m29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  54 MB/4.9 GB  4.6 MB/s  17m29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  54 MB/4.9 GB  4.6 MB/s  17m29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  55 MB/4.9 GB  4.6 MB/s  17m29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  55 MB/4.9 GB  4.6 MB/s  17m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  56 MB/4.9 GB  4.6 MB/s  17m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  56 MB/4.9 GB  4.6 MB/s  17m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  56 MB/4.9 GB  4.6 MB/s  17m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  57 MB/4.9 GB  4.6 MB/s  17m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  57 MB/4.9 GB  4.6 MB/s  17m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  57 MB/4.9 GB  4.6 MB/s  17m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  58 MB/4.9 GB  4.6 MB/s  17m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  59 MB/4.9 GB  4.6 MB/s  17m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  59 MB/4.9 GB  4.6 MB/s  17m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  59 MB/4.9 GB  4.6 MB/s  17m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  60 MB/4.9 GB  4.6 MB/s  17m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  60 MB/4.9 GB  4.6 MB/s  17m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  61 MB/4.9 GB  4.6 MB/s  17m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  62 MB/4.9 GB  4.6 MB/s  17m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  62 MB/4.9 GB  4.6 MB/s  17m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  62 MB/4.9 GB  4.6 MB/s  17m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  63 MB/4.9 GB  4.6 MB/s  17m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  63 MB/4.9 GB  4.6 MB/s  17m46s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  64 MB/4.9 GB  4.6 MB/s  17m46s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  64 MB/4.9 GB  4.6 MB/s  17m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  65 MB/4.9 GB  4.6 MB/s  17m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  65 MB/4.9 GB  4.6 MB/s  17m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  66 MB/4.9 GB  4.6 MB/s  17m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  66 MB/4.9 GB  4.6 MB/s  17m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  67 MB/4.9 GB  4.6 MB/s  17m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  67 MB/4.9 GB  4.6 MB/s  17m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  67 MB/4.9 GB  4.6 MB/s  17m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  67 MB/4.9 GB  4.6 MB/s  17m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  68 MB/4.9 GB  4.6 MB/s  17m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  68 MB/4.9 GB  4.6 MB/s  17m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  69 MB/4.9 GB  4.6 MB/s  17m38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  69 MB/4.9 GB  4.6 MB/s  17m38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  70 MB/4.9 GB  4.6 MB/s  17m38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  70 MB/4.9 GB  4.6 MB/s  17m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  71 MB/4.9 GB  4.6 MB/s  17m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  71 MB/4.9 GB  4.6 MB/s  17m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  72 MB/4.9 GB  4.6 MB/s  17m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  72 MB/4.9 GB  4.6 MB/s  17m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  73 MB/4.9 GB  4.6 MB/s  17m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   1% ▕                  ▏  73 MB/4.9 GB  4.6 MB/s  17m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  73 MB/4.9 GB  4.5 MB/s  17m58s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  74 MB/4.9 GB  4.5 MB/s  17m58s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  75 MB/4.9 GB  4.5 MB/s  17m58s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  75 MB/4.9 GB  4.5 MB/s  17m58s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  76 MB/4.9 GB  4.5 MB/s  17m58s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  77 MB/4.9 GB  4.5 MB/s  17m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  77 MB/4.9 GB  4.5 MB/s  17m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  78 MB/4.9 GB  4.5 MB/s  17m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  78 MB/4.9 GB  4.5 MB/s  17m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  79 MB/4.9 GB  4.5 MB/s  17m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  79 MB/4.9 GB  4.7 MB/s  17m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  79 MB/4.9 GB  4.7 MB/s  17m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  80 MB/4.9 GB  4.7 MB/s  17m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  80 MB/4.9 GB  4.7 MB/s  17m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  81 MB/4.9 GB  4.7 MB/s  17m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  81 MB/4.9 GB  4.7 MB/s  17m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  82 MB/4.9 GB  4.7 MB/s  17m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  82 MB/4.9 GB  4.7 MB/s  17m17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  83 MB/4.9 GB  4.7 MB/s  17m17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  83 MB/4.9 GB  4.7 MB/s  17m17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  84 MB/4.9 GB  4.7 MB/s   17m0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  85 MB/4.9 GB  4.7 MB/s   17m0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  85 MB/4.9 GB  4.7 MB/s   17m0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  85 MB/4.9 GB  4.7 MB/s  16m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  86 MB/4.9 GB  4.7 MB/s  16m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  86 MB/4.9 GB  4.7 MB/s  16m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  87 MB/4.9 GB  4.7 MB/s  16m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  89 MB/4.9 GB  4.7 MB/s  16m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  89 MB/4.9 GB  4.7 MB/s  16m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  90 MB/4.9 GB  4.7 MB/s  16m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  90 MB/4.9 GB  5.0 MB/s  15m58s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  90 MB/4.9 GB  5.0 MB/s  15m58s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  91 MB/4.9 GB  5.0 MB/s  15m58s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  91 MB/4.9 GB  5.0 MB/s  15m58s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  92 MB/4.9 GB  5.0 MB/s  15m58s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  93 MB/4.9 GB  5.0 MB/s  15m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  94 MB/4.9 GB  5.0 MB/s  15m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  94 MB/4.9 GB  5.0 MB/s  15m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  95 MB/4.9 GB  5.0 MB/s  15m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  95 MB/4.9 GB  5.0 MB/s  15m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  96 MB/4.9 GB  5.0 MB/s  15m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  97 MB/4.9 GB  5.2 MB/s  15m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  97 MB/4.9 GB  5.2 MB/s  15m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  97 MB/4.9 GB  5.2 MB/s  15m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  98 MB/4.9 GB  5.2 MB/s  15m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  99 MB/4.9 GB  5.2 MB/s  15m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏  99 MB/4.9 GB  5.2 MB/s  15m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 100 MB/4.9 GB  5.2 MB/s  15m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 101 MB/4.9 GB  5.2 MB/s  15m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 101 MB/4.9 GB  5.2 MB/s  15m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 102 MB/4.9 GB  5.2 MB/s  15m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 103 MB/4.9 GB  5.2 MB/s  15m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 103 MB/4.9 GB  5.2 MB/s  15m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 104 MB/4.9 GB  5.2 MB/s  15m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 105 MB/4.9 GB  5.2 MB/s  15m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 105 MB/4.9 GB  5.2 MB/s  15m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 106 MB/4.9 GB  5.2 MB/s  15m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 106 MB/4.9 GB  5.2 MB/s  15m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 106 MB/4.9 GB  5.2 MB/s  15m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 108 MB/4.9 GB  5.2 MB/s  15m29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 108 MB/4.9 GB  5.2 MB/s  15m29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 109 MB/4.9 GB  5.5 MB/s  14m38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 110 MB/4.9 GB  5.5 MB/s  14m38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 110 MB/4.9 GB  5.5 MB/s  14m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 111 MB/4.9 GB  5.5 MB/s  14m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 111 MB/4.9 GB  5.5 MB/s  14m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 112 MB/4.9 GB  5.5 MB/s  14m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 113 MB/4.9 GB  5.5 MB/s  14m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 113 MB/4.9 GB  5.5 MB/s  14m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 114 MB/4.9 GB  5.5 MB/s  14m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 114 MB/4.9 GB  5.5 MB/s  14m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 115 MB/4.9 GB  5.6 MB/s  14m16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 116 MB/4.9 GB  5.6 MB/s  14m16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 116 MB/4.9 GB  5.6 MB/s  14m16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 117 MB/4.9 GB  5.6 MB/s  14m16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 117 MB/4.9 GB  5.6 MB/s  14m16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 118 MB/4.9 GB  5.6 MB/s  14m16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 118 MB/4.9 GB  5.6 MB/s  14m16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 119 MB/4.9 GB  5.6 MB/s  14m15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 120 MB/4.9 GB  5.6 MB/s  14m15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 120 MB/4.9 GB  5.6 MB/s  14m15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 121 MB/4.9 GB  5.8 MB/s  13m49s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 121 MB/4.9 GB  5.8 MB/s  13m49s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   2% ▕                  ▏ 122 MB/4.9 GB  5.8 MB/s  13m49s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 123 MB/4.9 GB  5.8 MB/s  13m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 124 MB/4.9 GB  5.8 MB/s  13m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 124 MB/4.9 GB  5.8 MB/s  13m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 125 MB/4.9 GB  5.8 MB/s  13m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 125 MB/4.9 GB  5.8 MB/s  13m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 126 MB/4.9 GB  5.8 MB/s  13m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 127 MB/4.9 GB  5.8 MB/s  13m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 127 MB/4.9 GB  5.8 MB/s  13m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 128 MB/4.9 GB  6.1 MB/s   13m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 129 MB/4.9 GB  6.1 MB/s   13m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 129 MB/4.9 GB  6.1 MB/s   13m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 129 MB/4.9 GB  6.1 MB/s   13m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 130 MB/4.9 GB  6.1 MB/s   13m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 131 MB/4.9 GB  6.1 MB/s   13m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 131 MB/4.9 GB  6.1 MB/s   13m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 132 MB/4.9 GB  6.1 MB/s   13m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 132 MB/4.9 GB  6.1 MB/s   13m8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 133 MB/4.9 GB  6.1 MB/s   13m8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 134 MB/4.9 GB  6.1 MB/s  13m10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 134 MB/4.9 GB  6.1 MB/s  13m10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 135 MB/4.9 GB  6.1 MB/s  13m10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 135 MB/4.9 GB  6.1 MB/s  13m10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 136 MB/4.9 GB  6.1 MB/s  13m10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 137 MB/4.9 GB  6.1 MB/s  13m10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 138 MB/4.9 GB  6.1 MB/s  13m10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 138 MB/4.9 GB  6.1 MB/s  13m10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 139 MB/4.9 GB  6.1 MB/s  13m10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 139 MB/4.9 GB  6.1 MB/s   13m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 140 MB/4.9 GB  6.2 MB/s  12m53s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 140 MB/4.9 GB  6.2 MB/s  12m53s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 141 MB/4.9 GB  6.2 MB/s  12m53s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 141 MB/4.9 GB  6.2 MB/s  12m53s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 142 MB/4.9 GB  6.2 MB/s  12m53s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 142 MB/4.9 GB  6.2 MB/s  12m53s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 143 MB/4.9 GB  6.2 MB/s  12m53s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 143 MB/4.9 GB  6.2 MB/s  12m53s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 144 MB/4.9 GB  6.2 MB/s  12m52s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 145 MB/4.9 GB  6.2 MB/s  12m52s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 145 MB/4.9 GB  6.1 MB/s  12m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 146 MB/4.9 GB  6.1 MB/s  12m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 146 MB/4.9 GB  6.1 MB/s  12m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 147 MB/4.9 GB  6.1 MB/s  12m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 148 MB/4.9 GB  6.1 MB/s  12m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 148 MB/4.9 GB  6.1 MB/s  12m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 149 MB/4.9 GB  6.1 MB/s  12m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 149 MB/4.9 GB  6.1 MB/s  12m56s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 150 MB/4.9 GB  6.1 MB/s  12m56s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 151 MB/4.9 GB  6.1 MB/s  12m56s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 151 MB/4.9 GB  6.2 MB/s  12m51s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 152 MB/4.9 GB  6.2 MB/s  12m51s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 153 MB/4.9 GB  6.2 MB/s  12m51s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 153 MB/4.9 GB  6.2 MB/s  12m51s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 153 MB/4.9 GB  6.2 MB/s  12m51s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 154 MB/4.9 GB  6.2 MB/s  12m51s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 155 MB/4.9 GB  6.2 MB/s  12m51s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 155 MB/4.9 GB  6.2 MB/s  12m50s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 156 MB/4.9 GB  6.2 MB/s  12m50s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 157 MB/4.9 GB  6.2 MB/s  12m50s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 157 MB/4.9 GB  6.2 MB/s  12m50s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 157 MB/4.9 GB  6.2 MB/s  12m52s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 158 MB/4.9 GB  6.2 MB/s  12m52s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 159 MB/4.9 GB  6.2 MB/s  12m52s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 159 MB/4.9 GB  6.2 MB/s  12m52s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 160 MB/4.9 GB  6.2 MB/s  12m51s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 160 MB/4.9 GB  6.2 MB/s  12m51s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 161 MB/4.9 GB  6.2 MB/s  12m51s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 162 MB/4.9 GB  6.2 MB/s  12m51s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 162 MB/4.9 GB  6.2 MB/s  12m51s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 163 MB/4.9 GB  6.2 MB/s  12m51s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 164 MB/4.9 GB  6.1 MB/s   13m4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 164 MB/4.9 GB  6.1 MB/s   13m4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 165 MB/4.9 GB  6.1 MB/s   13m4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 165 MB/4.9 GB  6.1 MB/s   13m4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 166 MB/4.9 GB  6.1 MB/s   13m4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 167 MB/4.9 GB  6.1 MB/s   13m4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 167 MB/4.9 GB  6.1 MB/s   13m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 167 MB/4.9 GB  6.1 MB/s   13m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 168 MB/4.9 GB  6.1 MB/s   13m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 169 MB/4.9 GB  6.1 MB/s   13m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 169 MB/4.9 GB  6.0 MB/s   13m6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 170 MB/4.9 GB  6.0 MB/s   13m6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 171 MB/4.9 GB  6.0 MB/s   13m6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   3% ▕                  ▏ 171 MB/4.9 GB  6.0 MB/s   13m6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 172 MB/4.9 GB  6.0 MB/s   13m5s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 173 MB/4.9 GB  6.0 MB/s   13m5s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 173 MB/4.9 GB  6.0 MB/s   13m5s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 174 MB/4.9 GB  6.0 MB/s   13m5s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 174 MB/4.9 GB  6.0 MB/s   13m5s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 175 MB/4.9 GB  6.0 MB/s   13m5s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 176 MB/4.9 GB  6.1 MB/s  12m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 176 MB/4.9 GB  6.1 MB/s  12m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 176 MB/4.9 GB  6.1 MB/s  12m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 176 MB/4.9 GB  6.1 MB/s  12m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 177 MB/4.9 GB  6.1 MB/s  12m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 178 MB/4.9 GB  6.1 MB/s  12m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 178 MB/4.9 GB  6.1 MB/s  12m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 179 MB/4.9 GB  6.1 MB/s  12m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 179 MB/4.9 GB  6.1 MB/s  12m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 180 MB/4.9 GB  6.1 MB/s  12m59s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 181 MB/4.9 GB  6.0 MB/s  13m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 182 MB/4.9 GB  6.0 MB/s  13m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 183 MB/4.9 GB  6.0 MB/s  13m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 183 MB/4.9 GB  6.0 MB/s  13m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 183 MB/4.9 GB  6.0 MB/s  13m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 184 MB/4.9 GB  6.0 MB/s  13m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 185 MB/4.9 GB  6.0 MB/s  13m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 185 MB/4.9 GB  6.0 MB/s  13m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 186 MB/4.9 GB  6.0 MB/s  13m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 186 MB/4.9 GB  6.0 MB/s  13m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 187 MB/4.9 GB  6.0 MB/s  13m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 187 MB/4.9 GB  6.0 MB/s  13m12s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 188 MB/4.9 GB  6.0 MB/s  13m12s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 188 MB/4.9 GB  6.0 MB/s  13m12s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 189 MB/4.9 GB  6.0 MB/s  13m12s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 189 MB/4.9 GB  6.0 MB/s  13m12s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 189 MB/4.9 GB  6.0 MB/s  13m11s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 190 MB/4.9 GB  6.0 MB/s  13m11s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 191 MB/4.9 GB  6.0 MB/s  13m11s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 191 MB/4.9 GB  6.0 MB/s  13m11s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 191 MB/4.9 GB  6.0 MB/s  13m11s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 192 MB/4.9 GB  5.7 MB/s  13m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 193 MB/4.9 GB  5.7 MB/s  13m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 194 MB/4.9 GB  5.7 MB/s  13m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 194 MB/4.9 GB  5.7 MB/s  13m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 194 MB/4.9 GB  5.7 MB/s  13m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 195 MB/4.9 GB  5.7 MB/s  13m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 196 MB/4.9 GB  5.7 MB/s  13m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 196 MB/4.9 GB  5.7 MB/s  13m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 196 MB/4.9 GB  5.7 MB/s  13m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 197 MB/4.9 GB  5.7 MB/s  13m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 197 MB/4.9 GB  5.8 MB/s  13m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 198 MB/4.9 GB  5.8 MB/s  13m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 198 MB/4.9 GB  5.8 MB/s  13m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 199 MB/4.9 GB  5.8 MB/s  13m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 199 MB/4.9 GB  5.8 MB/s  13m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 200 MB/4.9 GB  5.8 MB/s  13m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 200 MB/4.9 GB  5.8 MB/s  13m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 200 MB/4.9 GB  5.8 MB/s  13m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 201 MB/4.9 GB  5.8 MB/s  13m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 201 MB/4.9 GB  5.8 MB/s  13m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 202 MB/4.9 GB  5.6 MB/s   14m4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 202 MB/4.9 GB  5.6 MB/s   14m4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 202 MB/4.9 GB  5.6 MB/s   14m4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 203 MB/4.9 GB  5.6 MB/s   14m4s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 204 MB/4.9 GB  5.6 MB/s   14m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 204 MB/4.9 GB  5.6 MB/s   14m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 204 MB/4.9 GB  5.6 MB/s   14m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 205 MB/4.9 GB  5.6 MB/s   14m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 206 MB/4.9 GB  5.6 MB/s   14m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 206 MB/4.9 GB  5.6 MB/s   14m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 207 MB/4.9 GB  5.5 MB/s  14m20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 207 MB/4.9 GB  5.5 MB/s  14m20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 207 MB/4.9 GB  5.5 MB/s  14m20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 207 MB/4.9 GB  5.5 MB/s  14m20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 208 MB/4.9 GB  5.5 MB/s  14m20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 208 MB/4.9 GB  5.5 MB/s  14m20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 209 MB/4.9 GB  5.5 MB/s  14m20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 209 MB/4.9 GB  5.5 MB/s  14m20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 209 MB/4.9 GB  5.5 MB/s  14m20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 210 MB/4.9 GB  5.5 MB/s  14m20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 210 MB/4.9 GB  5.5 MB/s  14m20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 211 MB/4.9 GB  5.2 MB/s   15m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 211 MB/4.9 GB  5.2 MB/s   15m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 211 MB/4.9 GB  5.2 MB/s   15m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 212 MB/4.9 GB  5.2 MB/s   15m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 212 MB/4.9 GB  5.2 MB/s   15m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 213 MB/4.9 GB  5.2 MB/s   15m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 213 MB/4.9 GB  5.2 MB/s   15m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 214 MB/4.9 GB  5.2 MB/s   15m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 214 MB/4.9 GB  5.2 MB/s   15m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 214 MB/4.9 GB  5.2 MB/s   15m3s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 215 MB/4.9 GB  5.0 MB/s  15m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 215 MB/4.9 GB  5.0 MB/s  15m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 216 MB/4.9 GB  5.0 MB/s  15m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 216 MB/4.9 GB  5.0 MB/s  15m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 217 MB/4.9 GB  5.0 MB/s  15m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 217 MB/4.9 GB  5.0 MB/s  15m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 218 MB/4.9 GB  5.0 MB/s  15m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 218 MB/4.9 GB  5.0 MB/s  15m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 218 MB/4.9 GB  5.0 MB/s  15m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 219 MB/4.9 GB  5.0 MB/s  15m33s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 219 MB/4.9 GB  4.8 MB/s  16m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 220 MB/4.9 GB  4.8 MB/s  16m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 220 MB/4.9 GB  4.8 MB/s  16m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 220 MB/4.9 GB  4.8 MB/s  16m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   4% ▕                  ▏ 221 MB/4.9 GB  4.8 MB/s  16m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 221 MB/4.9 GB  4.8 MB/s  16m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 222 MB/4.9 GB  4.8 MB/s  16m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 222 MB/4.9 GB  4.8 MB/s  16m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 222 MB/4.9 GB  4.8 MB/s  16m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 223 MB/4.9 GB  4.8 MB/s  16m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 223 MB/4.9 GB  4.6 MB/s  16m54s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 224 MB/4.9 GB  4.6 MB/s  16m54s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 224 MB/4.9 GB  4.6 MB/s  16m54s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 224 MB/4.9 GB  4.6 MB/s  16m54s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 225 MB/4.9 GB  4.6 MB/s  16m54s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 225 MB/4.9 GB  4.6 MB/s  16m54s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 226 MB/4.9 GB  4.6 MB/s  16m54s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 226 MB/4.9 GB  4.6 MB/s  16m54s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 226 MB/4.9 GB  4.6 MB/s  16m54s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 227 MB/4.9 GB  4.6 MB/s  16m54s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 227 MB/4.9 GB  4.4 MB/s  17m49s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 227 MB/4.9 GB  4.4 MB/s  17m49s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 227 MB/4.9 GB  4.4 MB/s  17m49s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 228 MB/4.9 GB  4.4 MB/s  17m49s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 228 MB/4.9 GB  4.4 MB/s  17m49s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 229 MB/4.9 GB  4.4 MB/s  17m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 229 MB/4.9 GB  4.4 MB/s  17m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 229 MB/4.9 GB  4.4 MB/s  17m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 230 MB/4.9 GB  4.4 MB/s  17m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 231 MB/4.9 GB  4.4 MB/s  17m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 231 MB/4.9 GB  4.4 MB/s  17m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 231 MB/4.9 GB  4.4 MB/s  17m44s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 231 MB/4.9 GB  4.4 MB/s  17m43s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 232 MB/4.9 GB  4.4 MB/s  17m43s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 232 MB/4.9 GB  4.4 MB/s  17m43s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 233 MB/4.9 GB  4.4 MB/s  17m43s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 233 MB/4.9 GB  4.4 MB/s  17m43s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 234 MB/4.9 GB  4.4 MB/s  17m43s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 234 MB/4.9 GB  4.4 MB/s  17m43s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 234 MB/4.9 GB  4.4 MB/s  17m43s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 234 MB/4.9 GB  4.4 MB/s  17m43s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 235 MB/4.9 GB  4.1 MB/s  18m53s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 235 MB/4.9 GB  4.1 MB/s  18m53s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 236 MB/4.9 GB  4.1 MB/s  18m53s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 236 MB/4.9 GB  4.1 MB/s  18m53s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 237 MB/4.9 GB  4.1 MB/s  18m53s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 237 MB/4.9 GB  4.1 MB/s  18m53s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 238 MB/4.9 GB  4.1 MB/s  18m53s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 238 MB/4.9 GB  4.1 MB/s  18m53s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 238 MB/4.9 GB  4.1 MB/s  18m52s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 239 MB/4.9 GB  4.1 MB/s  18m52s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 239 MB/4.9 GB  4.2 MB/s  18m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 240 MB/4.9 GB  4.2 MB/s  18m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 240 MB/4.9 GB  4.2 MB/s  18m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 240 MB/4.9 GB  4.2 MB/s  18m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 241 MB/4.9 GB  4.2 MB/s  18m46s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 241 MB/4.9 GB  4.2 MB/s  18m46s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 241 MB/4.9 GB  4.2 MB/s  18m46s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 242 MB/4.9 GB  4.2 MB/s  18m46s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 243 MB/4.9 GB  4.2 MB/s  18m46s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 243 MB/4.9 GB  4.2 MB/s  18m46s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 243 MB/4.9 GB  4.1 MB/s  19m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 243 MB/4.9 GB  4.1 MB/s  19m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 244 MB/4.9 GB  4.1 MB/s  19m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 245 MB/4.9 GB  4.1 MB/s  19m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 245 MB/4.9 GB  4.1 MB/s  19m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 245 MB/4.9 GB  4.1 MB/s  19m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 246 MB/4.9 GB  4.1 MB/s  19m13s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 247 MB/4.9 GB  4.1 MB/s  19m12s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 247 MB/4.9 GB  4.1 MB/s  19m12s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 248 MB/4.9 GB  4.1 MB/s  19m12s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 249 MB/4.9 GB  4.3 MB/s   18m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 249 MB/4.9 GB  4.3 MB/s   18m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 250 MB/4.9 GB  4.3 MB/s   18m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 251 MB/4.9 GB  4.3 MB/s   18m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 251 MB/4.9 GB  4.3 MB/s   18m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 252 MB/4.9 GB  4.3 MB/s   18m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 252 MB/4.9 GB  4.3 MB/s   18m8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 253 MB/4.9 GB  4.3 MB/s   18m8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 253 MB/4.9 GB  4.3 MB/s   18m8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 254 MB/4.9 GB  4.3 MB/s   18m8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 254 MB/4.9 GB  4.3 MB/s   18m8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 254 MB/4.9 GB  4.4 MB/s  17m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 254 MB/4.9 GB  4.4 MB/s  17m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 256 MB/4.9 GB  4.4 MB/s  17m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 256 MB/4.9 GB  4.4 MB/s  17m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 257 MB/4.9 GB  4.4 MB/s  17m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 257 MB/4.9 GB  4.4 MB/s  17m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 257 MB/4.9 GB  4.4 MB/s  17m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 259 MB/4.9 GB  4.4 MB/s  17m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 259 MB/4.9 GB  4.4 MB/s  17m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 260 MB/4.9 GB  4.4 MB/s  17m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 260 MB/4.9 GB  4.6 MB/s  16m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 261 MB/4.9 GB  4.6 MB/s  16m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 261 MB/4.9 GB  4.6 MB/s  16m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 262 MB/4.9 GB  4.6 MB/s  16m56s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 262 MB/4.9 GB  4.6 MB/s  16m56s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 263 MB/4.9 GB  4.6 MB/s  16m56s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 264 MB/4.9 GB  4.6 MB/s  16m56s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 264 MB/4.9 GB  4.6 MB/s  16m56s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 264 MB/4.9 GB  4.6 MB/s  16m56s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 265 MB/4.9 GB  4.6 MB/s  16m56s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 266 MB/4.9 GB  4.7 MB/s  16m23s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 266 MB/4.9 GB  4.7 MB/s  16m23s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 267 MB/4.9 GB  4.7 MB/s  16m23s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 268 MB/4.9 GB  4.7 MB/s  16m23s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 268 MB/4.9 GB  4.7 MB/s  16m23s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 269 MB/4.9 GB  4.7 MB/s  16m23s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   5% ▕                  ▏ 270 MB/4.9 GB  4.7 MB/s  16m23s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕                  ▏ 270 MB/4.9 GB  4.7 MB/s  16m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕                  ▏ 271 MB/4.9 GB  4.7 MB/s  16m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕                  ▏ 271 MB/4.9 GB  4.7 MB/s  16m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕                  ▏ 272 MB/4.9 GB  5.0 MB/s  15m28s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕                  ▏ 273 MB/4.9 GB  5.0 MB/s  15m28s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 273 MB/4.9 GB  5.0 MB/s  15m28s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 274 MB/4.9 GB  5.0 MB/s  15m27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 274 MB/4.9 GB  5.0 MB/s  15m27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 274 MB/4.9 GB  5.0 MB/s  15m27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 274 MB/4.9 GB  5.0 MB/s  15m27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 275 MB/4.9 GB  5.0 MB/s  15m27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 275 MB/4.9 GB  5.0 MB/s  15m27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 275 MB/4.9 GB  5.0 MB/s  15m27s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 276 MB/4.9 GB  5.0 MB/s  15m31s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 276 MB/4.9 GB  5.0 MB/s  15m31s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 277 MB/4.9 GB  5.0 MB/s  15m31s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 278 MB/4.9 GB  5.0 MB/s  15m31s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 279 MB/4.9 GB  5.0 MB/s  15m31s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 279 MB/4.9 GB  5.0 MB/s  15m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 280 MB/4.9 GB  5.0 MB/s  15m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 280 MB/4.9 GB  5.0 MB/s  15m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 281 MB/4.9 GB  5.0 MB/s  15m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 282 MB/4.9 GB  5.0 MB/s  15m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 282 MB/4.9 GB  5.0 MB/s  15m30s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 282 MB/4.9 GB  5.3 MB/s  14m35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 283 MB/4.9 GB  5.3 MB/s  14m35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 283 MB/4.9 GB  5.3 MB/s  14m35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 284 MB/4.9 GB  5.3 MB/s  14m35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 284 MB/4.9 GB  5.3 MB/s  14m35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 285 MB/4.9 GB  5.3 MB/s  14m35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 285 MB/4.9 GB  5.3 MB/s  14m35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 286 MB/4.9 GB  5.3 MB/s  14m35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 286 MB/4.9 GB  5.3 MB/s  14m35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 286 MB/4.9 GB  5.3 MB/s  14m34s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 287 MB/4.9 GB  5.3 MB/s  14m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 288 MB/4.9 GB  5.3 MB/s  14m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 288 MB/4.9 GB  5.3 MB/s  14m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 289 MB/4.9 GB  5.3 MB/s  14m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 289 MB/4.9 GB  5.3 MB/s  14m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 290 MB/4.9 GB  5.3 MB/s  14m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 291 MB/4.9 GB  5.3 MB/s  14m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 291 MB/4.9 GB  5.3 MB/s  14m35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 292 MB/4.9 GB  5.3 MB/s  14m35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 292 MB/4.9 GB  5.3 MB/s  14m35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 293 MB/4.9 GB  5.5 MB/s  13m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 293 MB/4.9 GB  5.5 MB/s  13m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 294 MB/4.9 GB  5.5 MB/s  13m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 294 MB/4.9 GB  5.5 MB/s  13m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 295 MB/4.9 GB  5.5 MB/s  13m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 296 MB/4.9 GB  5.5 MB/s  13m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 296 MB/4.9 GB  5.5 MB/s  13m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 296 MB/4.9 GB  5.5 MB/s  13m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 297 MB/4.9 GB  5.5 MB/s  13m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 297 MB/4.9 GB  5.5 MB/s  13m57s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 298 MB/4.9 GB  5.4 MB/s  14m10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 298 MB/4.9 GB  5.4 MB/s  14m10s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 299 MB/4.9 GB  5.4 MB/s   14m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 299 MB/4.9 GB  5.4 MB/s   14m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 300 MB/4.9 GB  5.4 MB/s   14m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 300 MB/4.9 GB  5.4 MB/s   14m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 300 MB/4.9 GB  5.4 MB/s   14m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 301 MB/4.9 GB  5.4 MB/s   14m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 301 MB/4.9 GB  5.4 MB/s   14m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 302 MB/4.9 GB  5.4 MB/s   14m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 302 MB/4.9 GB  5.3 MB/s  14m25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 303 MB/4.9 GB  5.3 MB/s  14m25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 303 MB/4.9 GB  5.3 MB/s  14m25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 304 MB/4.9 GB  5.3 MB/s  14m25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 304 MB/4.9 GB  5.3 MB/s  14m25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 305 MB/4.9 GB  5.3 MB/s  14m25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 305 MB/4.9 GB  5.3 MB/s  14m25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 306 MB/4.9 GB  5.3 MB/s  14m25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 306 MB/4.9 GB  5.3 MB/s  14m25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 307 MB/4.9 GB  5.3 MB/s  14m25s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 307 MB/4.9 GB  5.3 MB/s  14m24s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 308 MB/4.9 GB  5.3 MB/s  14m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 308 MB/4.9 GB  5.3 MB/s  14m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 309 MB/4.9 GB  5.3 MB/s  14m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 309 MB/4.9 GB  5.3 MB/s  14m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 310 MB/4.9 GB  5.3 MB/s  14m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 310 MB/4.9 GB  5.3 MB/s  14m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 311 MB/4.9 GB  5.3 MB/s  14m36s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 312 MB/4.9 GB  5.3 MB/s  14m35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 312 MB/4.9 GB  5.3 MB/s  14m35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 313 MB/4.9 GB  5.3 MB/s  14m35s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 313 MB/4.9 GB  5.2 MB/s  14m38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 313 MB/4.9 GB  5.2 MB/s  14m38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 314 MB/4.9 GB  5.2 MB/s  14m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 315 MB/4.9 GB  5.2 MB/s  14m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 315 MB/4.9 GB  5.2 MB/s  14m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 316 MB/4.9 GB  5.2 MB/s  14m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 317 MB/4.9 GB  5.2 MB/s  14m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 317 MB/4.9 GB  5.2 MB/s  14m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 318 MB/4.9 GB  5.2 MB/s  14m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 318 MB/4.9 GB  5.2 MB/s  14m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 319 MB/4.9 GB  5.2 MB/s  14m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   6% ▕█                 ▏ 319 MB/4.9 GB  5.2 MB/s  14m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 320 MB/4.9 GB  5.2 MB/s  14m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 320 MB/4.9 GB  5.2 MB/s  14m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 321 MB/4.9 GB  5.2 MB/s  14m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 321 MB/4.9 GB  5.2 MB/s  14m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 322 MB/4.9 GB  5.2 MB/s  14m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 323 MB/4.9 GB  5.2 MB/s  14m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 323 MB/4.9 GB  5.2 MB/s  14m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 323 MB/4.9 GB  5.2 MB/s  14m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 324 MB/4.9 GB  5.3 MB/s  14m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 325 MB/4.9 GB  5.3 MB/s  14m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 325 MB/4.9 GB  5.3 MB/s  14m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 326 MB/4.9 GB  5.3 MB/s  14m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 326 MB/4.9 GB  5.3 MB/s  14m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 326 MB/4.9 GB  5.3 MB/s  14m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 327 MB/4.9 GB  5.3 MB/s  14m21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 327 MB/4.9 GB  5.3 MB/s  14m21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 328 MB/4.9 GB  5.3 MB/s  14m21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 328 MB/4.9 GB  5.3 MB/s  14m21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 329 MB/4.9 GB  5.2 MB/s  14m43s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 329 MB/4.9 GB  5.2 MB/s  14m43s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 330 MB/4.9 GB  5.2 MB/s  14m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 331 MB/4.9 GB  5.2 MB/s  14m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 331 MB/4.9 GB  5.2 MB/s  14m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 332 MB/4.9 GB  5.2 MB/s  14m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 333 MB/4.9 GB  5.2 MB/s  14m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 333 MB/4.9 GB  5.2 MB/s  14m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 333 MB/4.9 GB  5.2 MB/s  14m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 334 MB/4.9 GB  5.2 MB/s  14m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 334 MB/4.9 GB  5.2 MB/s  14m42s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 335 MB/4.9 GB  5.3 MB/s  14m20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 336 MB/4.9 GB  5.3 MB/s  14m20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 336 MB/4.9 GB  5.3 MB/s  14m20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 337 MB/4.9 GB  5.3 MB/s  14m20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 337 MB/4.9 GB  5.3 MB/s  14m20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 337 MB/4.9 GB  5.3 MB/s  14m20s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 338 MB/4.9 GB  5.3 MB/s  14m19s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 339 MB/4.9 GB  5.3 MB/s  14m19s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 339 MB/4.9 GB  5.3 MB/s  14m19s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 340 MB/4.9 GB  5.3 MB/s  14m19s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 340 MB/4.9 GB  5.2 MB/s  14m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 340 MB/4.9 GB  5.2 MB/s  14m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 341 MB/4.9 GB  5.2 MB/s  14m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 342 MB/4.9 GB  5.2 MB/s  14m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 342 MB/4.9 GB  5.2 MB/s  14m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 343 MB/4.9 GB  5.2 MB/s  14m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 344 MB/4.9 GB  5.2 MB/s  14m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 344 MB/4.9 GB  5.2 MB/s  14m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 344 MB/4.9 GB  5.2 MB/s  14m39s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 345 MB/4.9 GB  5.2 MB/s  14m38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 346 MB/4.9 GB  5.3 MB/s  14m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 346 MB/4.9 GB  5.3 MB/s  14m18s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 347 MB/4.9 GB  5.3 MB/s  14m17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 347 MB/4.9 GB  5.3 MB/s  14m17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 348 MB/4.9 GB  5.3 MB/s  14m17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 349 MB/4.9 GB  5.3 MB/s  14m17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 349 MB/4.9 GB  5.3 MB/s  14m17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 349 MB/4.9 GB  5.3 MB/s  14m17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 350 MB/4.9 GB  5.3 MB/s  14m17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 351 MB/4.9 GB  5.3 MB/s  14m17s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 351 MB/4.9 GB  5.4 MB/s   14m1s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 352 MB/4.9 GB  5.4 MB/s   14m1s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 353 MB/4.9 GB  5.4 MB/s   14m1s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 353 MB/4.9 GB  5.4 MB/s   14m1s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 354 MB/4.9 GB  5.4 MB/s   14m0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 354 MB/4.9 GB  5.4 MB/s   14m0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 355 MB/4.9 GB  5.4 MB/s   14m0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 356 MB/4.9 GB  5.4 MB/s   14m0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 356 MB/4.9 GB  5.4 MB/s   14m0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 357 MB/4.9 GB  5.4 MB/s   14m0s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 357 MB/4.9 GB  5.6 MB/s  13m38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 358 MB/4.9 GB  5.6 MB/s  13m38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 359 MB/4.9 GB  5.6 MB/s  13m38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 359 MB/4.9 GB  5.6 MB/s  13m38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 359 MB/4.9 GB  5.6 MB/s  13m38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 361 MB/4.9 GB  5.6 MB/s  13m38s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 361 MB/4.9 GB  5.6 MB/s  13m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 362 MB/4.9 GB  5.6 MB/s  13m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 362 MB/4.9 GB  5.6 MB/s  13m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 363 MB/4.9 GB  5.6 MB/s  13m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 364 MB/4.9 GB  5.6 MB/s  13m37s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 364 MB/4.9 GB  5.7 MB/s  13m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 365 MB/4.9 GB  5.7 MB/s  13m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 365 MB/4.9 GB  5.7 MB/s  13m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 366 MB/4.9 GB  5.7 MB/s  13m21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 366 MB/4.9 GB  5.7 MB/s  13m21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 367 MB/4.9 GB  5.7 MB/s  13m21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 368 MB/4.9 GB  5.7 MB/s  13m21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 368 MB/4.9 GB  5.7 MB/s  13m21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   7% ▕█                 ▏ 369 MB/4.9 GB  5.7 MB/s  13m21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 369 MB/4.9 GB  5.7 MB/s  13m21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 370 MB/4.9 GB  5.6 MB/s  13m29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 370 MB/4.9 GB  5.6 MB/s  13m29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 371 MB/4.9 GB  5.6 MB/s  13m29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 372 MB/4.9 GB  5.6 MB/s  13m29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 372 MB/4.9 GB  5.6 MB/s  13m29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 373 MB/4.9 GB  5.6 MB/s  13m29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 373 MB/4.9 GB  5.6 MB/s  13m29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 374 MB/4.9 GB  5.6 MB/s  13m29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 374 MB/4.9 GB  5.6 MB/s  13m29s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 375 MB/4.9 GB  5.6 MB/s  13m28s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 376 MB/4.9 GB  5.8 MB/s   13m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 376 MB/4.9 GB  5.8 MB/s   13m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 377 MB/4.9 GB  5.8 MB/s   13m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 377 MB/4.9 GB  5.8 MB/s   13m9s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 378 MB/4.9 GB  5.8 MB/s   13m8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 379 MB/4.9 GB  5.8 MB/s   13m8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 379 MB/4.9 GB  5.8 MB/s   13m8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 380 MB/4.9 GB  5.8 MB/s   13m8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 380 MB/4.9 GB  5.8 MB/s   13m8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 381 MB/4.9 GB  5.8 MB/s   13m8s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 382 MB/4.9 GB  5.9 MB/s  12m55s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 382 MB/4.9 GB  5.9 MB/s  12m55s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 383 MB/4.9 GB  5.9 MB/s  12m55s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 383 MB/4.9 GB  5.9 MB/s  12m55s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 384 MB/4.9 GB  5.9 MB/s  12m54s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 385 MB/4.9 GB  5.9 MB/s  12m54s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 385 MB/4.9 GB  5.9 MB/s  12m54s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 386 MB/4.9 GB  5.9 MB/s  12m54s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 386 MB/4.9 GB  5.9 MB/s  12m54s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 387 MB/4.9 GB  5.9 MB/s  12m54s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 388 MB/4.9 GB  5.9 MB/s  12m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 388 MB/4.9 GB  5.9 MB/s  12m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 389 MB/4.9 GB  5.9 MB/s  12m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 389 MB/4.9 GB  5.9 MB/s  12m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 390 MB/4.9 GB  5.9 MB/s  12m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 391 MB/4.9 GB  5.9 MB/s  12m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 392 MB/4.9 GB  5.9 MB/s  12m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 392 MB/4.9 GB  5.9 MB/s  12m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 392 MB/4.9 GB  5.9 MB/s  12m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 393 MB/4.9 GB  5.9 MB/s  12m46s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 394 MB/4.9 GB  5.9 MB/s  12m46s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 395 MB/4.9 GB  6.1 MB/s  12m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 396 MB/4.9 GB  6.1 MB/s  12m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 396 MB/4.9 GB  6.1 MB/s  12m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 397 MB/4.9 GB  6.1 MB/s  12m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 398 MB/4.9 GB  6.1 MB/s  12m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 398 MB/4.9 GB  6.1 MB/s  12m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 399 MB/4.9 GB  6.1 MB/s  12m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 400 MB/4.9 GB  6.1 MB/s  12m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 400 MB/4.9 GB  6.1 MB/s  12m22s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 401 MB/4.9 GB  6.1 MB/s  12m21s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 402 MB/4.9 GB  6.2 MB/s   12m7s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 402 MB/4.9 GB  6.2 MB/s   12m7s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 403 MB/4.9 GB  6.2 MB/s   12m7s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 405 MB/4.9 GB  6.2 MB/s   12m6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 405 MB/4.9 GB  6.2 MB/s   12m6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 406 MB/4.9 GB  6.2 MB/s   12m6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 407 MB/4.9 GB  6.2 MB/s   12m6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 407 MB/4.9 GB  6.2 MB/s   12m6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 408 MB/4.9 GB  6.2 MB/s   12m6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 409 MB/4.9 GB  6.2 MB/s   12m6s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 409 MB/4.9 GB  6.4 MB/s  11m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 410 MB/4.9 GB  6.4 MB/s  11m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 410 MB/4.9 GB  6.4 MB/s  11m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 411 MB/4.9 GB  6.4 MB/s  11m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 412 MB/4.9 GB  6.4 MB/s  11m41s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 412 MB/4.9 GB  6.4 MB/s  11m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 413 MB/4.9 GB  6.4 MB/s  11m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 414 MB/4.9 GB  6.4 MB/s  11m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 415 MB/4.9 GB  6.4 MB/s  11m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 415 MB/4.9 GB  6.4 MB/s  11m40s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 416 MB/4.9 GB  6.5 MB/s  11m32s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 417 MB/4.9 GB  6.5 MB/s  11m32s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   8% ▕█                 ▏ 417 MB/4.9 GB  6.5 MB/s  11m32s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 418 MB/4.9 GB  6.5 MB/s  11m32s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 419 MB/4.9 GB  6.5 MB/s  11m32s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 420 MB/4.9 GB  6.5 MB/s  11m32s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 420 MB/4.9 GB  6.5 MB/s  11m32s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 421 MB/4.9 GB  6.5 MB/s  11m32s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 422 MB/4.9 GB  6.5 MB/s  11m32s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 423 MB/4.9 GB  6.5 MB/s  11m31s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 424 MB/4.9 GB  6.7 MB/s  11m16s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 424 MB/4.9 GB  6.7 MB/s  11m15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 425 MB/4.9 GB  6.7 MB/s  11m15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 426 MB/4.9 GB  6.7 MB/s  11m15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 427 MB/4.9 GB  6.7 MB/s  11m15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 428 MB/4.9 GB  6.7 MB/s  11m15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 429 MB/4.9 GB  6.7 MB/s  11m15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 429 MB/4.9 GB  6.7 MB/s  11m15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 430 MB/4.9 GB  6.7 MB/s  11m15s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 431 MB/4.9 GB  6.7 MB/s  11m14s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 431 MB/4.9 GB  6.7 MB/s  11m14s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 432 MB/4.9 GB  6.9 MB/s  10m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 433 MB/4.9 GB  6.9 MB/s  10m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 434 MB/4.9 GB  6.9 MB/s  10m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 435 MB/4.9 GB  6.9 MB/s  10m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 436 MB/4.9 GB  6.9 MB/s  10m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 437 MB/4.9 GB  6.9 MB/s  10m48s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K
+llm-consumer         | pulling 667b0c1932bc:   9% ▕█                 ▏ 438 MB/4.9 GB  6.9 MB/s  10m47s[K[?25h[?2026l[?2026h[?25l[A[1Gpulling manifest [K

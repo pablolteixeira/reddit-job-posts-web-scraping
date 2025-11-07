@@ -1,0 +1,4 @@
+# Run Reddit scraper every 2 hours
+0 */2 * * * root cd /app && python src/scraper.py >> /var/log/cron.log 2>&1
+
+# Empty line required at end of cron file

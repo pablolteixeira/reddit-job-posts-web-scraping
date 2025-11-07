@@ -1,0 +1,25 @@
+# GPU-enabled override for docker-compose
+#
+# Usage:
+#   docker compose -f docker-compose.yml -f docker-compose.gpu.yml up -d
+#
+# Prerequisites:
+#   1. NVIDIA GPU with drivers installed
+#   2. nvidia-container-toolkit installed
+#   3. Verify with: nvidia-smi
+
+version: '3.8'
+
+services:
+  llm-consumer:
+    runtime: nvidia
+    environment:
+      NVIDIA_VISIBLE_DEVICES: all
+      NVIDIA_DRIVER_CAPABILITIES: compute,utility
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
