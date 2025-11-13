@@ -1,6 +1,6 @@
 # Reddit Job Post Scraper & Analyzer
 
-Automated pipeline for scraping job posts from Reddit and analyzing them with AI to extract structured data.
+Automated pipeline for scraping job posts from Reddit and analyzing them with AI to extract structured data, plus a web interface to browse and search jobs.
 
 ## Features
 
@@ -10,6 +10,8 @@ Automated pipeline for scraping job posts from Reddit and analyzing them with AI
 - 🧠 **AI Analysis**: Uses Llama 3.1 via Ollama (free, self-hosted) to extract:
   - Cleaned title and description
   - Job tags (type, level, technologies, location, etc.)
+- 🌐 **Web Frontend**: Next.js app to browse, search, and filter jobs
+- 📊 **REST API**: FastAPI backend with filtering and pagination
 - 🐳 **Fully Dockerized**: One command to run everything
 - ⚡ **GPU Support**: Optional GPU acceleration for 3-5x faster processing
 
@@ -18,9 +20,9 @@ Automated pipeline for scraping job posts from Reddit and analyzing them with AI
 ```
 Reddit Scraper (Cron)
     ↓
-PostgreSQL Database
-    ↓
-RabbitMQ Queue
+PostgreSQL Database ←→ FastAPI (REST API) ←→ Next.js Frontend
+    ↓                      ↓
+RabbitMQ Queue         Port 8000           Port 3000
     ↓
 LLM Consumer (Ollama + Llama 3.1)
     ↓
@@ -60,8 +62,17 @@ That's it! The system will:
 - Process with LLM (downloads model on first run, ~5 min)
 - Update database with cleaned data
 
+## Web Interface
+
+After starting the services, access:
+- **Frontend**: http://localhost:3000 - Browse and search jobs
+- **API Docs**: http://localhost:8000/docs - Interactive API documentation
+- **RabbitMQ UI**: http://localhost:15672 - Queue management (guest/guest)
+
 ## Documentation
 
+- **[FRONTEND_SETUP.md](FRONTEND_SETUP.md)** - Frontend setup and development guide
+- **[DOCKER_FRONTEND.md](DOCKER_FRONTEND.md)** - Frontend Docker configuration
 - **[DOCKER_SETUP.md](DOCKER_SETUP.md)** - Complete Docker setup guide, commands, troubleshooting
 - **[GPU_SETUP.md](GPU_SETUP.md)** - Optional GPU acceleration setup for faster processing
 
@@ -69,29 +80,44 @@ That's it! The system will:
 
 ```
 reddit-job-posts-web-scraping/
-├── reddit_scraper/          # Scraper service
+├── frontend/               # Next.js web interface
+│   ├── app/               # Pages and routes
+│   ├── components/        # React components
+│   ├── lib/               # API client & types
+│   ├── Dockerfile
+│   └── .env.local
+├── api/                   # FastAPI backend
 │   ├── src/
-│   │   ├── scraper.py      # Main scraper logic
-│   │   ├── db/             # Database models
-│   │   └── messaging/      # RabbitMQ publisher
+│   │   ├── main.py       # API routes
+│   │   ├── models.py     # Database models
+│   │   └── schemas.py    # API schemas
+│   ├── Dockerfile
+│   └── .env
+├── reddit_scraper/        # Scraper service
+│   ├── src/
+│   │   ├── scraper.py    # Main scraper logic
+│   │   ├── db/           # Database models
+│   │   └── messaging/    # RabbitMQ publisher
 │   ├── Dockerfile
 │   └── .env.template
-├── llm_service/            # LLM analyzer service
+├── llm_service/          # LLM analyzer service
 │   ├── src/
-│   │   ├── consumer.py     # RabbitMQ consumer
-│   │   ├── analyzer.py     # Ollama LLM integration
-│   │   └── database.py     # PostgreSQL client
+│   │   ├── consumer.py   # RabbitMQ consumer
+│   │   ├── analyzer.py   # Ollama LLM integration
+│   │   └── database.py   # PostgreSQL client
 │   ├── Dockerfile
 │   └── .env.template
-├── cron/                   # Cron schedule config
-├── docker-compose.yml      # Main orchestration
-└── docker-compose.gpu.yml  # GPU acceleration (optional)
+├── cron/                 # Cron schedule config
+├── docker-compose.yml    # Main orchestration
+└── docker-compose.gpu.yml # GPU acceleration (optional)
 ```
 
 ## Services
 
 | Service | Port | Description |
 |---------|------|-------------|
+| Frontend | 3000 | Next.js web interface |
+| API | 8000 | FastAPI REST backend |
 | PostgreSQL | 5432 | Stores job post data |
 | RabbitMQ | 5672 | Message queue |
 | RabbitMQ UI | 15672 | Management interface |
