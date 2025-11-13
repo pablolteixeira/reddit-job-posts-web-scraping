@@ -87,6 +87,23 @@ services:
         reservations:
           memory: 4G
 
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: reddit-api
+    env_file:
+      - ./api/.env
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
 volumes:
   postgres_data:
   rabbitmq_data:
